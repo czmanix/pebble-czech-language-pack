@@ -5,6 +5,7 @@ import gettext
 import io
 import json
 import re
+import shutil
 import struct
 from pathlib import Path
 
@@ -16,6 +17,7 @@ EXTRA_CSV_PATH = Path("PebbleOS-extra-en-cs-review.csv")
 BASE_PBL_PATH = Path("Czech-v1.pbl")
 PO_PATH = Path("tintin.po")
 PBL_PATH = Path("Czech-v3.pbl")
+PBL_BACKUP_PATH = Path("Czech-v3-before-missing-review.pbl")
 FIELD_RE = re.compile(r"(msgctxt|msgid_plural|msgid|msgstr(?:\[\d+\])?)\s+(.*)")
 PLACEHOLDER_RE = re.compile(r"%(?:[-+#0-9.*hlLzjt]*[A-Za-z%])")
 MO_MAGIC = 0x950412DE
@@ -103,6 +105,42 @@ def load_extra_translations(path, current_entries):
             raise ValueError("Supplemental CSV row %d has an empty translation" % index)
         extras.append((entry, source_text, target_text))
     return extras
+
+
+def load_missing_review(path, current_entries):
+    source_entries = {
+        (entry["msgctxt"], normalize_newlines(entry["msgid"])): entry
+        for entry in current_entries
+    }
+    with path.open(encoding="utf-8-sig", newline="") as source:
+        rows = list(csv.DictReader(source, delimiter=";"))
+
+    expected_fields = {
+        "gettext kontext",
+        "Anglicky",
+        "Český návrh – kontrola",
+        "Zdroj / poznámka",
+        "Stav",
+    }
+    if not rows or set(rows[0]) != expected_fields:
+        raise ValueError("Unexpected missing-translation review CSV header")
+
+    translations = {}
+    for index, row in enumerate(rows, start=1):
+        context = row["gettext kontext"]
+        source_text = normalize_newlines(row["Anglicky"])
+        target_text = normalize_newlines(row["Český návrh – kontrola"])
+        key = (context, source_text)
+        if key not in source_entries:
+            raise ValueError("Missing review CSV row %d is not in current POT" % index)
+        if key in translations:
+            raise ValueError("Duplicate gettext key in missing review CSV row %d" % index)
+        if sorted(PLACEHOLDER_RE.findall(source_text)) != sorted(PLACEHOLDER_RE.findall(target_text)):
+            raise ValueError("Missing review CSV row %d changes format placeholders" % index)
+        if source_text.strip() and not target_text.strip():
+            raise ValueError("Missing review CSV row %d has an empty translation" % index)
+        translations[key] = target_text
+    return translations
 
 
 def po_quote(text):
@@ -316,11 +354,43 @@ def pack_pbl(resources):
 
 
 def main():
-    entries = parse_pot(POT_PATH)
-    translations = load_translations(CSV_PATH)
     current_entries = parse_pot(CURRENT_POT_PATH)
+    previous_entries = parse_pot(POT_PATH)
+    previous_translations = load_translations(CSV_PATH)
+    if len(previous_entries) != len(previous_translations):
+        raise ValueError("Previous POT and reviewed CSV entry counts differ")
+
+    translations_by_key = {}
+    for index, (entry, (source, target)) in enumerate(
+        zip(previous_entries, previous_translations), start=1
+    ):
+        if normalize_newlines(entry["msgid"]) != source:
+            raise ValueError("Previous CSV row %d does not match its POT" % index)
+        translations_by_key[(entry["msgctxt"], source)] = target
+
     extra_entries = load_extra_translations(EXTRA_CSV_PATH, current_entries)
-    translated_entries, po_header = write_po(entries, translations, PO_PATH, extra_entries)
+    for entry, source, target in extra_entries:
+        translations_by_key[(entry["msgctxt"], source)] = target
+
+    missing_translations = load_missing_review(EXTRA_CSV_PATH.with_name(
+        "PebbleOS-missing-en-cs-review.csv"), current_entries)
+    translations_by_key.update(missing_translations)
+
+    current_keys = {
+        (entry["msgctxt"], normalize_newlines(entry["msgid"]))
+        for entry in current_entries
+    }
+    uncovered = current_keys - translations_by_key.keys()
+    if uncovered:
+        raise ValueError("Current POT has %d untranslated keys; examples: %r" % (
+            len(uncovered), list(uncovered)[:5]))
+
+    translations = [
+        (entry["msgid"], translations_by_key[(
+            entry["msgctxt"], normalize_newlines(entry["msgid"]))])
+        for entry in current_entries
+    ]
+    translated_entries, po_header = write_po(current_entries, translations, PO_PATH)
     mo_data = compile_mo(translated_entries, po_header)
     catalog = gettext.GNUTranslations(io.BytesIO(mo_data))
     if len(catalog._catalog) != len(translated_entries) + 1:
@@ -334,6 +404,8 @@ def main():
     if verified_resources[0] != mo_data or verified_resources[1:] != base_resources[1:]:
         raise ValueError("Packed output did not preserve the original Czech font resources")
     catalog_check = gettext.GNUTranslations(io.BytesIO(verified_resources[0]))
+    if PBL_PATH.exists() and not PBL_BACKUP_PATH.exists():
+        shutil.copy2(PBL_PATH, PBL_BACKUP_PATH)
     PBL_PATH.write_bytes(output_data)
 
     print("PO: %s (%d messages)" % (PO_PATH, len(translated_entries)))
@@ -343,7 +415,12 @@ def main():
         len(verified_resources) - 1,
         sum(bool(resource) for resource in verified_resources[1:])))
     print("Compiled gettext entries: %d" % (len(catalog_check._catalog) - 1))
-    print("Added %d verified Core Devices gettext keys" % len(extra_entries))
+    print("Merged %d reviewed missing entries; omitted %d obsolete keys" % (
+        len(missing_translations),
+        len(translations_by_key.keys() - current_keys),
+    ))
+    if PBL_BACKUP_PATH.exists():
+        print("Previous PBL preserved at %s" % PBL_BACKUP_PATH)
 
 
 if __name__ == "__main__":

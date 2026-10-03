@@ -1,0 +1,212 @@
+﻿gettext kontext;Anglicky;Český návrh – kontrola;Zdroj / poznámka;Stav
+TmplStringMany; sec;sek;fw/applib/template_string.c:308;Strojový návrh – zkontrolovat
+TmplStringMany; seconds;sekundy;fw/applib/template_string.c:311;Strojový návrh – zkontrolovat
+TmplStringMany; min;min;fw/applib/template_string.c:320;Strojový návrh – zkontrolovat
+TmplStringMany; minutes;zápis;fw/applib/template_string.c:323;Strojový návrh – zkontrolovat
+TmplStringMany; hr;hr;fw/applib/template_string.c:332;Strojový návrh – zkontrolovat
+TmplStringMany; hours;hodin;fw/applib/template_string.c:335;Strojový návrh – zkontrolovat
+TmplStringMany; d;d;fw/applib/template_string.c:344;Strojový návrh – zkontrolovat
+TmplStringMany; days;dní;fw/applib/template_string.c:347;Strojový návrh – zkontrolovat
+TmplStringMany; mo;mo;fw/applib/template_string.c:357;Strojový návrh – zkontrolovat
+TmplStringMany; months;měsíce;fw/applib/template_string.c:360;Strojový návrh – zkontrolovat
+TmplStringMany; yr;rok;fw/applib/template_string.c:371;Strojový návrh – zkontrolovat
+TmplStringMany; years;let;fw/applib/template_string.c:374;Strojový návrh – zkontrolovat
+;Decline dialog.;Dialogové okno odmítnutí.;fw/apps/demo/dialogs/dialogs_demo.c:104;Strojový návrh – zkontrolovat
+;mi;mi;fw/apps/system/health/activity_detail_card.c:43 | fw/services/activity/activity_insights.c:1625;Strojový návrh – zkontrolovat
+;km;km;fw/apps/system/health/activity_detail_card.c:43 | fw/services/activity/activity_insights.c:1625;Strojový návrh – zkontrolovat
+;TOTAL;CELKEM;fw/apps/system/health/activity_summary_card.c:142;Strojový návrh – zkontrolovat
+;%s (%u);%s (%u);/ Notification sender followed by the number of grouped notifications | fw/apps/system/notifications.c:690;Strojový návrh – zkontrolovat
+;Clear Notification History;Vymazat historii oznámení;fw/apps/system/notifications.c:1110;Strojový návrh – zkontrolovat
+;Nothing;Nic;/ Quick Launch action that makes the button do nothing at all. | fw/apps/system/quick_launch_nothing.c:24;Strojový návrh – zkontrolovat
+TextSize;Default;Výchozí;fw/apps/system/settings/display.c:63 | fw/apps/system/settings/notifications.c:108;Strojový návrh – zkontrolovat
+Orientation;Default;Výchozí;fw/apps/system/settings/display.c:136;Strojový návrh – zkontrolovat
+;Double Tap;Poklepání;fw/apps/system/settings/display.c:208 fw/services/vibes/vibes.def:19;Strojový návrh – zkontrolovat
+;Tap;Klepnutí;fw/apps/system/settings/display.c:209;Strojový návrh – zkontrolovat
+TouchWake;Off;Vypnuto;fw/apps/system/settings/display.c:210;Strojový návrh – zkontrolovat
+;WAKE ON TOUCH;PROBUDIT DOTYKEM;fw/apps/system/settings/display.c:223;Strojový návrh – zkontrolovat
+;Wake on touch;Probudit dotykem;fw/apps/system/settings/display.c:223 fw/apps/system/settings/display.c:430;Strojový návrh – zkontrolovat
+DynBacklight;Off;Vypnuto;fw/apps/system/settings/display.c:234;Strojový návrh – zkontrolovat
+;Bright;Jasný;fw/apps/system/settings/display.c:235;Strojový návrh – zkontrolovat
+;Standard;Normální;fw/apps/system/settings/display.c:236 fw/apps/system/settings/display.c:262;Strojový návrh – zkontrolovat
+;Dim;Tlumený;fw/apps/system/settings/display.c:237;Strojový návrh – zkontrolovat
+;DYNAMIC BACKLIGHT;DYNAMICKÉ PODSVÍCENÍ;fw/apps/system/settings/display.c:251;Strojový návrh – zkontrolovat
+;Max Brightness;Maximální jas;fw/apps/system/settings/display.c:261;Strojový návrh – zkontrolovat
+;Battery Saver;Spořič baterie;fw/apps/system/settings/display.c:263;Strojový návrh – zkontrolovat
+;Advanced;Pokročilý;fw/apps/system/settings/display.c:264;Strojový návrh – zkontrolovat
+;BACKLIGHT;PODSVĚTLENÍ;fw/apps/system/settings/display.c:284;Strojový návrh – zkontrolovat
+;Scaled (Nearest);Zvětšené (nejbližší);fw/apps/system/settings/display.c:294;Strojový návrh – zkontrolovat
+;Scaled (Bilinear);Zvětšené (bilineární);fw/apps/system/settings/display.c:294;Strojový návrh – zkontrolovat
+;On - %d%%;Zapnuto - %d%%;fw/apps/system/settings/display.c:412;Strojový návrh – zkontrolovat
+DeviceState;On;Zapnuto;fw/apps/system/settings/display.c:415 fw/apps/system/settings/display.c:418;Strojový návrh – zkontrolovat
+DeviceState;Off;Vypnuto;fw/apps/system/settings/display.c:421 fw/apps/system/settings/display.c:442 | fw/apps/system/settings/display.c:649;Strojový návrh – zkontrolovat
+;Wake on motion;Probudit pohybem;fw/apps/system/settings/display.c:425;Strojový návrh – zkontrolovat
+;On (%d);Zapnuto (%d);fw/apps/system/settings/display.c:438;Strojový návrh – zkontrolovat
+;Backlight Settings;Nastavení podsvícení;fw/apps/system/settings/display.c:542 fw/apps/system/settings/display.c:652;Strojový návrh – zkontrolovat
+;Touch;Dotek;fw/apps/system/settings/display.c:656 | fw/apps/system/settings/quiet_time.c:366;Strojový návrh – zkontrolovat
+;Touch Navigation;Navigace dotekem;fw/apps/system/settings/display.c:660;Strojový návrh – zkontrolovat
+;Kilometers;Kilometry;fw/apps/system/settings/health.c:22;Strojový návrh – zkontrolovat
+;Miles;Míle;fw/apps/system/settings/health.c:23;Strojový návrh – zkontrolovat
+;5 Minutes;5 minut;fw/apps/system/settings/health.c:33;Strojový návrh – zkontrolovat
+;30 Minutes;30 minut;fw/apps/system/settings/health.c:33 fw/apps/system/settings/health.c:55;Strojový návrh – zkontrolovat
+;1 Hour;1 hodina;fw/apps/system/settings/health.c:34 fw/apps/system/settings/health.c:56;Strojový návrh – zkontrolovat
+;HR Monitoring;Sledování tepu;fw/apps/system/settings/health.c:99 fw/apps/system/settings/health.c:162;Strojový návrh – zkontrolovat
+;Blood Oxygen;Krevní kyslík;fw/apps/system/settings/health.c:120 fw/apps/system/settings/health.c:175;Strojový návrh – zkontrolovat
+;Health Tracking;Sledování zdraví;fw/apps/system/settings/health.c:146;Strojový návrh – zkontrolovat
+;Distance Unit;Jednotka vzdálenosti;fw/apps/system/settings/health.c:151;Strojový návrh – zkontrolovat
+;HR During Activity;Tep během aktivity;fw/apps/system/settings/health.c:169;Strojový návrh – zkontrolovat
+;SpO2 Monitoring;Monitorování SpO2;fw/apps/system/settings/health.c:180;Strojový návrh – zkontrolovat
+;Blood O2 During Activity;O2 v krvi během aktivity;fw/apps/system/settings/health.c:187;Strojový návrh – zkontrolovat
+;Needs HR During Activity;Potřebuje Tep během aktivity;fw/apps/system/settings/health.c:190;Strojový návrh – zkontrolovat
+;Same as System;Stejné jako Systém;/ Notification text size option that follows the system Text Size setting | fw/apps/system/settings/notifications.c:111;Strojový návrh – zkontrolovat
+;30 Seconds;30 sekund;/ 30 Second Notification Window Timeout | fw/apps/system/settings/notifications.c:152;Strojový návrh – zkontrolovat
+;Beginning;Začátek;/ Vibrate at the beginning of notification animation (immediate) | fw/apps/system/settings/notifications.c:236;Strojový návrh – zkontrolovat
+;Vibe Timing;Načasování vibrací;/ Status bar title for the Notification Vibe Timing settings screen | / String within Settings->Notifications that describes when vibration happens | fw/apps/system/settings/notifications.c:256 | fw/apps/system/settings/notifications.c:370;Strojový návrh – zkontrolovat
+StatusBar;Default;Výchozí;fw/apps/system/settings/notifications.c:266;Strojový návrh – zkontrolovat
+;Bold;Tučný;fw/apps/system/settings/notifications.c:267;Strojový návrh – zkontrolovat
+;Big & Bold;Velký a tučný;fw/apps/system/settings/notifications.c:268;Strojový návrh – zkontrolovat
+;Clock Style;Styl hodin;/ Status bar title for the Notification Status Bar Style settings screen | fw/apps/system/settings/notifications.c:290;Strojový návrh – zkontrolovat
+;Never;Nikdy;/ Disable notification grouping | fw/apps/system/settings/notifications.c:301;Strojový návrh – zkontrolovat
+;1 Day;1 den;/ Group notifications received within one day | fw/apps/system/settings/notifications.c:303;Strojový návrh – zkontrolovat
+;1 Week;1 týden;/ Group notifications received within one week | fw/apps/system/settings/notifications.c:305;Strojový návrh – zkontrolovat
+;All;Vše;/ Group all notifications | fw/apps/system/settings/notifications.c:307;Strojový návrh – zkontrolovat
+;Group by Sender;Seskupit podle odesílatele;/ Title for the notification sender grouping settings screen | / Notification settings item for grouping notifications by sender | fw/apps/system/settings/notifications.c:324 | fw/apps/system/settings/notifications.c:383;Strojový návrh – zkontrolovat
+;Status Bar;Stavový řádek;/ String within Settings->Notifications that selects the notification status bar style | fw/apps/system/settings/notifications.c:390;Strojový návrh – zkontrolovat
+;Actions;Akce;/ Shown in Quick Launch Settings as the title of the list of actions. | / Title of the Quick Launch menu listing the available actions. | fw/apps/system/settings/quick_launch.c:71 | fw/apps/system/settings/quick_launch_app_menu.c:35;Strojový návrh – zkontrolovat
+;Apps;Aplikace;/ Shown in Quick Launch Settings as the title of the list of apps. | / Title of the Quick Launch menu listing the installed apps. | fw/apps/system/settings/quick_launch.c:73 | fw/apps/system/settings/quick_launch_app_menu.c:37;Strojový návrh – zkontrolovat
+;Unassigned;Nepřiřazeno;/ Shown in Quick Launch Settings when no action or app is bound to the button. | fw/apps/system/settings/quick_launch.c:80 | fw/apps/system/settings/quick_launch_app_menu.c:109;Strojový návrh – zkontrolovat
+;Schedule;Naplánovat;fw/apps/system/settings/quiet_time.c:318 | fw/apps/system/settings/quiet_time.c:432;Strojový návrh – zkontrolovat
+;On - Auto Dismiss;Zapnuto - samo se zruší;fw/apps/system/settings/quiet_time.c:327;Strojový návrh – zkontrolovat
+;On - Persistent;Zapnuto - Trvalé;fw/apps/system/settings/quiet_time.c:329;Strojový návrh – zkontrolovat
+;Motion;Pohyb;fw/apps/system/settings/quiet_time.c:362;Strojový návrh – zkontrolovat
+;Mute Speaker;Ztlumit reproduktor;fw/apps/system/settings/quiet_time.c:455 | fw/apps/system/settings/vibe_patterns.c:66;Strojový návrh – zkontrolovat
+;Volume;Hlasitost;fw/apps/system/settings/speaker_volume_window.c:55 | fw/apps/system/settings/vibe_patterns.c:72;Strojový návrh – zkontrolovat
+;Shake Log Info;Shake Log Info;fw/apps/system/settings/system.c:497;Strojový návrh – zkontrolovat
+;Vibe Log Info;Vibe Log Info;fw/apps/system/settings/system.c:498;Strojový návrh – zkontrolovat
+;Compact Settings DBs;Compact Settings DBs;fw/apps/system/settings/system.c:499;Strojový návrh – zkontrolovat
+;SpO2 Test;Test SpO2;fw/apps/system/settings/system.c:501;Strojový návrh – zkontrolovat
+;Enabled;Povoleno;fw/apps/system/settings/system.c:537 fw/apps/system/settings/system.c:540;Strojový návrh – zkontrolovat
+;Company;Společnost;fw/apps/system/settings/system.c:984;Strojový návrh – zkontrolovat
+;Product Model;Model produktu;fw/apps/system/settings/system.c:992;Strojový návrh – zkontrolovat
+;Product Type;Typ produktu;fw/apps/system/settings/system.c:999;Strojový návrh – zkontrolovat
+;Trademark;Ochranná známka;fw/apps/system/settings/system.c:1006;Strojový návrh – zkontrolovat
+;Place of Origin;Místo původu;fw/apps/system/settings/system.c:1013;Strojový návrh – zkontrolovat
+;DC Input;DC vstup;fw/apps/system/settings/system.c:1020;Strojový návrh – zkontrolovat
+;Rated Voltage;Jmenovité napětí;fw/apps/system/settings/system.c:1027;Strojový návrh – zkontrolovat
+;Milliampere-hour;Miliampérhodina;fw/apps/system/settings/system.c:1034;Strojový návrh – zkontrolovat
+;Watt-hour;Watt-hodina;fw/apps/system/settings/system.c:1041;Strojový návrh – zkontrolovat
+;Canada IC;Kanada IC;fw/apps/system/settings/system.c:1055;Strojový návrh – zkontrolovat
+;Canada ISED;Kanada ISED;fw/apps/system/settings/system.c:1062;Strojový návrh – zkontrolovat
+;South Korea KCC;Jižní Korea KCC;fw/apps/system/settings/system.c:1076 fw/apps/system/settings/system.c:1186;Strojový návrh – zkontrolovat
+;Accent Color;Barva zvýraznění;fw/apps/system/settings/themes.c:98;Strojový návrh – zkontrolovat
+;Set Time;Nastavit čas;fw/apps/system/settings/time.c:261 fw/apps/system/settings/time.c:364;Strojový návrh – zkontrolovat
+;Set Date;Nastavit datum;fw/apps/system/settings/time.c:300 fw/apps/system/settings/time.c:372;Strojový návrh – zkontrolovat
+;Time Source;Zdroj času;fw/apps/system/settings/time.c:359;Strojový návrh – zkontrolovat
+;Overlay;Překrytí;"/ Shows up in the Timeline settings as an ""Unsupported Faces"" submenu option. | fw/apps/system/settings/timeline.c:86";Strojový návrh – zkontrolovat
+;Shift up;Posunout nahoru;"/ Shows up in the Timeline settings as an ""Unsupported Faces"" submenu option. | fw/apps/system/settings/timeline.c:88";Strojový návrh – zkontrolovat
+;Squish up;Zmáčknout;"/ Shows up in the Timeline settings as an ""Unsupported Faces"" submenu option. | fw/apps/system/settings/timeline.c:90";Strojový návrh – zkontrolovat
+;Unsupported Faces;Nepodporované ciferníky;/ Shows up in the Timeline settings as the title for unsupported watchface behavior. | / Shows up in the Timeline settings for watchfaces that do not support Quick View. | fw/apps/system/settings/timeline.c:152 | fw/apps/system/settings/timeline.c:202;Strojový návrh – zkontrolovat
+;Hourly Notice;Hodinové upozornění;fw/apps/system/settings/vibe_patterns.c:95;Strojový návrh – zkontrolovat
+;On Disconnect;Při odpojení;fw/apps/system/settings/vibe_patterns.c:100;Strojový návrh – zkontrolovat
+;Toggle Airplane Mode;Přepnout režim Letadlo;/ The Quick Launch action that toggles Airplane Mode. | fw/apps/system/toggle/airplane_mode.c:52;Strojový návrh – zkontrolovat
+;Toggle Backlight;Přepnout podsvícení;/ The Quick Launch action that toggles the backlight. | fw/apps/system/toggle/backlight_state.c:53;Strojový návrh – zkontrolovat
+;Toggle Motion Backlight;Přepnout podsvícení pohybem;/ The Quick Launch action that toggles the motion backlight. | fw/apps/system/toggle/motion_backlight.c:50;Strojový návrh – zkontrolovat
+;Toggle Quiet Time;Přepnout Tichý čas;/ The Quick Launch action that toggles Quiet Time. | fw/apps/system/toggle/quiet_time.c:25;Strojový návrh – zkontrolovat
+;Turn On Touch?;Zapnout dotyk?;fw/apps/system/toggle/touch.c:23;Strojový návrh – zkontrolovat
+;Turn Off Touch?;Vypnout dotyk?;fw/apps/system/toggle/touch.c:24;Strojový návrh – zkontrolovat
+;Touch On;Dotyk zapnutý;fw/apps/system/toggle/touch.c:25;Strojový návrh – zkontrolovat
+;Touch Off;Dotyk vypnutý;fw/apps/system/toggle/touch.c:26;Strojový návrh – zkontrolovat
+;Toggle Touch;Přepnout dotyk;/ The Quick Launch action that turns the touchscreen on or off. | fw/apps/system/toggle/touch.c:50;Strojový návrh – zkontrolovat
+;Sunset --:--;Západ --:--;fw/apps/system/weather/expanded_view.c:175;Strojový návrh – zkontrolovat
+;Sunset %s;Západ %s;fw/apps/system/weather/expanded_view.c:178;Strojový návrh – zkontrolovat
+;Last updated --:--;Poslední aktualizace --:--;fw/apps/system/weather/expanded_view.c:203;Strojový návrh – zkontrolovat
+;Last updated %s;Poslední aktualizace %s;fw/apps/system/weather/expanded_view.c:206;Strojový návrh – zkontrolovat
+;PRECIPITATION: --;SRÁŽKY: --;fw/apps/system/weather/expanded_view.c:390;Strojový návrh – zkontrolovat
+;PRECIPITATION: %d%%;SRÁŽKY: %d%%;fw/apps/system/weather/expanded_view.c:392;Strojový návrh – zkontrolovat
+;CURRENT UV;AKTUÁLNÍ UV;fw/apps/system/weather/expanded_view.c:475;Strojový návrh – zkontrolovat
+;UV %d;UV %d;fw/apps/system/weather/expanded_view.c:484;Strojový návrh – zkontrolovat
+;UV --;UV --;fw/apps/system/weather/expanded_view.c:486;Strojový návrh – zkontrolovat
+;RAIN %d%%;DÉŠŤ %d%%;fw/apps/system/weather/expanded_view.c:488;Strojový návrh – zkontrolovat
+;RAIN --;DÉŠŤ --;fw/apps/system/weather/expanded_view.c:490;Strojový návrh – zkontrolovat
+;UV;UV;fw/apps/system/weather/expanded_view.c:498;Strojový návrh – zkontrolovat
+;RAIN;DÉŠŤ;fw/apps/system/weather/expanded_view.c:500;Strojový návrh – zkontrolovat
+;WEATHER REPORT;ZPRÁVA O POČASÍ;fw/apps/system/weather/forecast_list.c:1278;Strojový návrh – zkontrolovat
+;PRECIPITATION;SRÁŽKY;"/ row at 164: with the deeper section lift (EXTRA_LIFT 19) the | scrolled column's air splits evenly — solved for disc->graph = graph->pill = | %-row->dot (~10-11px each; the graph auto-centres in its band, so the split | holds for any temp spread). | fw/apps/system/weather/forecast_list.c:1599";Strojový návrh – zkontrolovat
+;%a, %b %d;%a, %b %d;fw/apps/system/weather/forecast_list.c:2217;Strojový návrh – zkontrolovat
+;Saved Location;Uložená poloha;fw/apps/system/weather/globe_view.c:2156;Strojový návrh – zkontrolovat
+;Current Location;Aktuální poloha;fw/apps/system/weather/globe_view.c:2160 | fw/apps/system/weather/globe_view.c:3688 | fw/apps/system/weather/globe_view.c:3742 | fw/apps/system/weather/saved_locations.c:160;Strojový návrh – zkontrolovat
+;CITY SELECT;VÝBĚR MĚSTA;fw/apps/system/weather/globe_view.c:3090 | fw/apps/system/weather/globe_view.c:3097;Strojový návrh – zkontrolovat
+;SAVED LOCATIONS;ULOŽENÁ MÍSTA;fw/apps/system/weather/globe_view.c:3158 | fw/apps/system/weather/globe_view.c:3190;Strojový návrh – zkontrolovat
+;Location;Umístění;fw/apps/system/weather/saved_locations.c:159;Strojový návrh – zkontrolovat
+;No Locations;Žádná místa;fw/apps/system/weather/saved_locations.c:241;Strojový návrh – zkontrolovat
+;Add them in the app;Přidejte je do aplikace;fw/apps/system/weather/saved_locations.c:242;Strojový návrh – zkontrolovat
+;Sunny;Slunečno;fw/apps/system/weather/weather.c:99;Strojový návrh – zkontrolovat
+;Partly Cloudy;Částečně oblačno;fw/apps/system/weather/weather.c:101;Strojový návrh – zkontrolovat
+;Cloudy;Zataženo;fw/apps/system/weather/weather.c:103;Strojový návrh – zkontrolovat
+;Light Rain;Slabý déšť;fw/apps/system/weather/weather.c:105;Strojový návrh – zkontrolovat
+;Rain;Déšť;fw/apps/system/weather/weather.c:107;Strojový návrh – zkontrolovat
+;Light Snow;Slabé sněžení;fw/apps/system/weather/weather.c:109;Strojový návrh – zkontrolovat
+;Snow;Sněžení;fw/apps/system/weather/weather.c:111;Strojový návrh – zkontrolovat
+;Rain & Snow;Déšť a sníh;fw/apps/system/weather/weather.c:113;Strojový návrh – zkontrolovat
+;Snow likely;Pravděpodobně sníh;fw/apps/system/weather/weather_app_layout.c:406;Strojový návrh – zkontrolovat
+;Sleet likely;Pravděpodobně plískanice;fw/apps/system/weather/weather_app_layout.c:408;Strojový návrh – zkontrolovat
+;Rain likely;Pravděpodobný déšť;fw/apps/system/weather/weather_app_layout.c:410;Strojový návrh – zkontrolovat
+;Chance of snow;Možnost sněžení;fw/apps/system/weather/weather_app_layout.c:418;Strojový návrh – zkontrolovat
+;Chance of sleet;Možnost deště;fw/apps/system/weather/weather_app_layout.c:420;Strojový návrh – zkontrolovat
+;Chance of rain;Možnost deště;fw/apps/system/weather/weather_app_layout.c:422;Strojový návrh – zkontrolovat
+;Hail;Kroupy;fw/apps/system/weather/weather_app_layout.c:460;Strojový návrh – zkontrolovat
+;Chance of storms;Možnost bouřek;fw/apps/system/weather/weather_app_layout.c:462;Strojový návrh – zkontrolovat
+;Heavy snow;Husté sněžení;fw/apps/system/weather/weather_app_layout.c:464;Strojový návrh – zkontrolovat
+;Heavy rain;Silný déšť;fw/apps/system/weather/weather_app_layout.c:466;Strojový návrh – zkontrolovat
+;Wintry mix;Zimní směs;fw/apps/system/weather/weather_app_layout.c:468;Strojový návrh – zkontrolovat
+;Flood risk;Riziko záplav;fw/apps/system/weather/weather_app_layout.c:470;Strojový návrh – zkontrolovat
+;Strong winds;Silný vítr;fw/apps/system/weather/weather_app_layout.c:472;Strojový návrh – zkontrolovat
+;Below freezing;Pod bodem mrazu;fw/apps/system/weather/weather_app_layout.c:475;Strojový návrh – zkontrolovat
+;Hard frost;Tuhý mráz;fw/apps/system/weather/weather_app_layout.c:477;Strojový návrh – zkontrolovat
+;Feels below freezing;Pocitově pod bodem mrazu;fw/apps/system/weather/weather_app_layout.c:480;Strojový návrh – zkontrolovat
+;Heatwave;Vlna veder;fw/apps/system/weather/weather_app_layout.c:482;Strojový návrh – zkontrolovat
+;Very high UV;Velmi vysoké UV;fw/apps/system/weather/weather_app_layout.c:484;Strojový návrh – zkontrolovat
+;High UV;Vysoké UV;fw/apps/system/weather/weather_app_layout.c:486;Strojový návrh – zkontrolovat
+;Poor visibility;Špatná viditelnost;fw/apps/system/weather/weather_app_layout.c:489;Strojový návrh – zkontrolovat
+;High humidity;Vysoká vlhkost;fw/apps/system/weather/weather_app_layout.c:491;Strojový návrh – zkontrolovat
+;Windy;Větrno;fw/apps/system/weather/weather_app_layout.c:497;Strojový návrh – zkontrolovat
+;Clear skies;Jasná obloha;fw/apps/system/weather/weather_app_layout.c:502;Strojový návrh – zkontrolovat
+;Light winds;Slabý vítr;fw/apps/system/weather/weather_app_layout.c:504;Strojový návrh – zkontrolovat
+;Calm breeze;Klidný vánek;fw/apps/system/weather/weather_app_layout.c:507;Strojový návrh – zkontrolovat
+;Fair conditions;Spravedlivé podmínky;fw/apps/system/weather/weather_app_layout.c:510;Strojový návrh – zkontrolovat
+;Mild conditions;Mírné podmínky;fw/apps/system/weather/weather_app_layout.c:512;Strojový návrh – zkontrolovat
+;All clear;Vše jasné;fw/apps/system/weather/weather_app_layout.c:514;Strojový návrh – zkontrolovat
+;N;S;fw/apps/system/weather/weather_app_layout.c:524;Strojový návrh – zkontrolovat
+;NE;SV;fw/apps/system/weather/weather_app_layout.c:524;Strojový návrh – zkontrolovat
+;E;V;fw/apps/system/weather/weather_app_layout.c:524;Strojový návrh – zkontrolovat
+;SE;JV;fw/apps/system/weather/weather_app_layout.c:524;Strojový návrh – zkontrolovat
+;S;J;fw/apps/system/weather/weather_app_layout.c:525;Strojový návrh – zkontrolovat
+;SW;JZ;fw/apps/system/weather/weather_app_layout.c:525;Strojový návrh – zkontrolovat
+;W;Z;fw/apps/system/weather/weather_app_layout.c:525;Strojový návrh – zkontrolovat
+;NW;SZ;fw/apps/system/weather/weather_app_layout.c:525;Strojový návrh – zkontrolovat
+;mph;mph;fw/apps/system/weather/weather_app_layout.c:549;Strojový návrh – zkontrolovat
+;km/h;km/h;fw/apps/system/weather/weather_app_layout.c:549;Strojový návrh – zkontrolovat
+;%s at %d%s.;%s na %d%s.;fw/apps/system/weather/weather_app_layout.c:551;Strojový návrh – zkontrolovat
+;Winds %s at %d%s.;Vítr %s na %d%s.;fw/apps/system/weather/weather_app_layout.c:551;Strojový návrh – zkontrolovat
+;At %d%s.;Na %d%s.;fw/apps/system/weather/weather_app_layout.c:556;Strojový návrh – zkontrolovat
+;Winds at %d%s.;Vítr %d%s.;fw/apps/system/weather/weather_app_layout.c:556;Strojový návrh – zkontrolovat
+;Precipitation %d%%.;Srážky %d%%.;fw/apps/system/weather/weather_app_layout.c:565;Strojový návrh – zkontrolovat
+;TODAY;DNES;fw/apps/system/weather/weather_app_layout.c:840 | fw/apps/system/weather/weather_app_layout.c:1128;Strojový návrh – zkontrolovat
+;UV INDEX;UV INDEX;fw/apps/system/weather/weather_app_layout.c:968 | fw/apps/system/weather/weather_app_layout.c:1064;Strojový návrh – zkontrolovat
+;Your heart rate has been shared with an app on your phone for several hours. This could affect your battery. Stop sharing now?;Vaše tepová frekvence byla několik hodin sdílena s aplikací v telefonu. Mohlo by to ovlivnit vaši baterii. Přestat sdílet nyní?;fw/popups/ble_hrm/ble_hrm_reminder_popup.c:15;Strojový návrh – zkontrolovat
+;Sharing Heart Rate;Sdílení srdeční frekvence;fw/popups/ble_hrm/ble_hrm_sharing_popup.c:29;Strojový návrh – zkontrolovat
+;Share heart rate?;Sdílet tepovou frekvenci?;fw/popups/ble_hrm/ble_hrm_sharing_popup.c:66;Strojový návrh – zkontrolovat
+;Heart Rate Not Shared;Srdeční frekvence není sdílena;fw/popups/ble_hrm/ble_hrm_stop_sharing_popup.c:17;Strojový návrh – zkontrolovat
+;Mute 1 Hour;Ztlumit 1 hodinu;fw/popups/notifications/notification_window.c:963;Strojový návrh – zkontrolovat
+;Mute Today;Ztlumit dnes;fw/popups/notifications/notification_window.c:966;Strojový návrh – zkontrolovat
+;This app uses RockyJS which is no longer supported.;Tato aplikace používá RockyJS, který již není podporován.;fw/process_management/process_manager.c:340;Strojový návrh – zkontrolovat
+;h;h;fw/services/activity/health_util.c:96;Strojový návrh – zkontrolovat
+;min;min;fw/services/activity/health_util.c:112;Strojový návrh – zkontrolovat
+;iPhone Notifications Blocked;Oznámení iPhone blokována;fw/services/notifications/ancs/ancs_notifications.c:412;Strojový návrh – zkontrolovat
+;Your iPhone is not sharing notifications with this watch. On your iPhone, open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share System Notifications.;Váš iPhone s těmito hodinkami nesdílí oznámení. Na iPhonu otevřete Nastavení > Bluetooth, klepněte na (i) vedle vašeho Pebble a zapněte Share System Notifications.;fw/services/notifications/ancs/ancs_notifications.c:415;Strojový návrh – zkontrolovat
+;Sunrise;Východ;fw/services/timeline/weather_layout.c:51;Strojový návrh – zkontrolovat
+;Sunset;Západ;fw/services/timeline/weather_layout.c:53;Strojový návrh – zkontrolovat
+;Gentle;Jemný;fw/services/vibes/vibes.def:15;Strojový návrh – zkontrolovat
+;Double Pulse Medium;Dvojitý střední;fw/services/vibes/vibes.def:16;Strojový návrh – zkontrolovat
+;Pebble Morse;Morseovka;fw/services/vibes/vibes.def:17;Strojový návrh – zkontrolovat
+;Heartbeat;Tlukot srdce;fw/services/vibes/vibes.def:18;Strojový návrh – zkontrolovat
+;Wave;Vlna;fw/services/vibes/vibes.def:20;Strojový návrh – zkontrolovat

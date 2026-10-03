@@ -1,0 +1,212 @@
+﻿gettext kontext;Anglicky;Zdroj / poznámka;Stav
+TmplStringMany; sec;fw/applib/template_string.c:308;Nepřeloženo
+TmplStringMany; seconds;fw/applib/template_string.c:311;Nepřeloženo
+TmplStringMany; min;fw/applib/template_string.c:320;Nepřeloženo
+TmplStringMany; minutes;fw/applib/template_string.c:323;Nepřeloženo
+TmplStringMany; hr;fw/applib/template_string.c:332;Nepřeloženo
+TmplStringMany; hours;fw/applib/template_string.c:335;Nepřeloženo
+TmplStringMany; d;fw/applib/template_string.c:344;Nepřeloženo
+TmplStringMany; days;fw/applib/template_string.c:347;Nepřeloženo
+TmplStringMany; mo;fw/applib/template_string.c:357;Nepřeloženo
+TmplStringMany; months;fw/applib/template_string.c:360;Nepřeloženo
+TmplStringMany; yr;fw/applib/template_string.c:371;Nepřeloženo
+TmplStringMany; years;fw/applib/template_string.c:374;Nepřeloženo
+;Decline dialog.;fw/apps/demo/dialogs/dialogs_demo.c:104;Nepřeloženo
+;mi;fw/apps/system/health/activity_detail_card.c:43 | fw/services/activity/activity_insights.c:1625;Nepřeloženo
+;km;fw/apps/system/health/activity_detail_card.c:43 | fw/services/activity/activity_insights.c:1625;Nepřeloženo
+;TOTAL;fw/apps/system/health/activity_summary_card.c:142;Nepřeloženo
+;%s (%u);/ Notification sender followed by the number of grouped notifications | fw/apps/system/notifications.c:690;Nepřeloženo
+;Clear Notification History;fw/apps/system/notifications.c:1110;Nepřeloženo
+;Nothing;/ Quick Launch action that makes the button do nothing at all. | fw/apps/system/quick_launch_nothing.c:24;Nepřeloženo
+TextSize;Default;fw/apps/system/settings/display.c:63 | fw/apps/system/settings/notifications.c:108;Nepřeloženo
+Orientation;Default;fw/apps/system/settings/display.c:136;Nepřeloženo
+;Double Tap;fw/apps/system/settings/display.c:208 fw/services/vibes/vibes.def:19;Nepřeloženo
+;Tap;fw/apps/system/settings/display.c:209;Nepřeloženo
+TouchWake;Off;fw/apps/system/settings/display.c:210;Nepřeloženo
+;WAKE ON TOUCH;fw/apps/system/settings/display.c:223;Nepřeloženo
+;Wake on touch;fw/apps/system/settings/display.c:223 fw/apps/system/settings/display.c:430;Nepřeloženo
+DynBacklight;Off;fw/apps/system/settings/display.c:234;Nepřeloženo
+;Bright;fw/apps/system/settings/display.c:235;Nepřeloženo
+;Standard;fw/apps/system/settings/display.c:236 fw/apps/system/settings/display.c:262;Nepřeloženo
+;Dim;fw/apps/system/settings/display.c:237;Nepřeloženo
+;DYNAMIC BACKLIGHT;fw/apps/system/settings/display.c:251;Nepřeloženo
+;Max Brightness;fw/apps/system/settings/display.c:261;Nepřeloženo
+;Battery Saver;fw/apps/system/settings/display.c:263;Nepřeloženo
+;Advanced;fw/apps/system/settings/display.c:264;Nepřeloženo
+;BACKLIGHT;fw/apps/system/settings/display.c:284;Nepřeloženo
+;Scaled (Nearest);fw/apps/system/settings/display.c:294;Nepřeloženo
+;Scaled (Bilinear);fw/apps/system/settings/display.c:294;Nepřeloženo
+;On - %d%%;fw/apps/system/settings/display.c:412;Nepřeloženo
+DeviceState;On;fw/apps/system/settings/display.c:415 fw/apps/system/settings/display.c:418;Nepřeloženo
+DeviceState;Off;fw/apps/system/settings/display.c:421 fw/apps/system/settings/display.c:442 | fw/apps/system/settings/display.c:649;Nepřeloženo
+;Wake on motion;fw/apps/system/settings/display.c:425;Nepřeloženo
+;On (%d);fw/apps/system/settings/display.c:438;Nepřeloženo
+;Backlight Settings;fw/apps/system/settings/display.c:542 fw/apps/system/settings/display.c:652;Nepřeloženo
+;Touch;fw/apps/system/settings/display.c:656 | fw/apps/system/settings/quiet_time.c:366;Nepřeloženo
+;Touch Navigation;fw/apps/system/settings/display.c:660;Nepřeloženo
+;Kilometers;fw/apps/system/settings/health.c:22;Nepřeloženo
+;Miles;fw/apps/system/settings/health.c:23;Nepřeloženo
+;5 Minutes;fw/apps/system/settings/health.c:33;Nepřeloženo
+;30 Minutes;fw/apps/system/settings/health.c:33 fw/apps/system/settings/health.c:55;Nepřeloženo
+;1 Hour;fw/apps/system/settings/health.c:34 fw/apps/system/settings/health.c:56;Nepřeloženo
+;HR Monitoring;fw/apps/system/settings/health.c:99 fw/apps/system/settings/health.c:162;Nepřeloženo
+;Blood Oxygen;fw/apps/system/settings/health.c:120 fw/apps/system/settings/health.c:175;Nepřeloženo
+;Health Tracking;fw/apps/system/settings/health.c:146;Nepřeloženo
+;Distance Unit;fw/apps/system/settings/health.c:151;Nepřeloženo
+;HR During Activity;fw/apps/system/settings/health.c:169;Nepřeloženo
+;SpO2 Monitoring;fw/apps/system/settings/health.c:180;Nepřeloženo
+;Blood O2 During Activity;fw/apps/system/settings/health.c:187;Nepřeloženo
+;Needs HR During Activity;fw/apps/system/settings/health.c:190;Nepřeloženo
+;Same as System;/ Notification text size option that follows the system Text Size setting | fw/apps/system/settings/notifications.c:111;Nepřeloženo
+;30 Seconds;/ 30 Second Notification Window Timeout | fw/apps/system/settings/notifications.c:152;Nepřeloženo
+;Beginning;/ Vibrate at the beginning of notification animation (immediate) | fw/apps/system/settings/notifications.c:236;Nepřeloženo
+;Vibe Timing;/ Status bar title for the Notification Vibe Timing settings screen | / String within Settings->Notifications that describes when vibration happens | fw/apps/system/settings/notifications.c:256 | fw/apps/system/settings/notifications.c:370;Nepřeloženo
+StatusBar;Default;fw/apps/system/settings/notifications.c:266;Nepřeloženo
+;Bold;fw/apps/system/settings/notifications.c:267;Nepřeloženo
+;Big & Bold;fw/apps/system/settings/notifications.c:268;Nepřeloženo
+;Clock Style;/ Status bar title for the Notification Status Bar Style settings screen | fw/apps/system/settings/notifications.c:290;Nepřeloženo
+;Never;/ Disable notification grouping | fw/apps/system/settings/notifications.c:301;Nepřeloženo
+;1 Day;/ Group notifications received within one day | fw/apps/system/settings/notifications.c:303;Nepřeloženo
+;1 Week;/ Group notifications received within one week | fw/apps/system/settings/notifications.c:305;Nepřeloženo
+;All;/ Group all notifications | fw/apps/system/settings/notifications.c:307;Nepřeloženo
+;Group by Sender;/ Title for the notification sender grouping settings screen | / Notification settings item for grouping notifications by sender | fw/apps/system/settings/notifications.c:324 | fw/apps/system/settings/notifications.c:383;Nepřeloženo
+;Status Bar;/ String within Settings->Notifications that selects the notification status bar style | fw/apps/system/settings/notifications.c:390;Nepřeloženo
+;Actions;/ Shown in Quick Launch Settings as the title of the list of actions. | / Title of the Quick Launch menu listing the available actions. | fw/apps/system/settings/quick_launch.c:71 | fw/apps/system/settings/quick_launch_app_menu.c:35;Nepřeloženo
+;Apps;/ Shown in Quick Launch Settings as the title of the list of apps. | / Title of the Quick Launch menu listing the installed apps. | fw/apps/system/settings/quick_launch.c:73 | fw/apps/system/settings/quick_launch_app_menu.c:37;Nepřeloženo
+;Unassigned;/ Shown in Quick Launch Settings when no action or app is bound to the button. | fw/apps/system/settings/quick_launch.c:80 | fw/apps/system/settings/quick_launch_app_menu.c:109;Nepřeloženo
+;Schedule;fw/apps/system/settings/quiet_time.c:318 | fw/apps/system/settings/quiet_time.c:432;Nepřeloženo
+;On - Auto Dismiss;fw/apps/system/settings/quiet_time.c:327;Nepřeloženo
+;On - Persistent;fw/apps/system/settings/quiet_time.c:329;Nepřeloženo
+;Motion;fw/apps/system/settings/quiet_time.c:362;Nepřeloženo
+;Mute Speaker;fw/apps/system/settings/quiet_time.c:455 | fw/apps/system/settings/vibe_patterns.c:66;Nepřeloženo
+;Volume;fw/apps/system/settings/speaker_volume_window.c:55 | fw/apps/system/settings/vibe_patterns.c:72;Nepřeloženo
+;Shake Log Info;fw/apps/system/settings/system.c:497;Nepřeloženo
+;Vibe Log Info;fw/apps/system/settings/system.c:498;Nepřeloženo
+;Compact Settings DBs;fw/apps/system/settings/system.c:499;Nepřeloženo
+;SpO2 Test;fw/apps/system/settings/system.c:501;Nepřeloženo
+;Enabled;fw/apps/system/settings/system.c:537 fw/apps/system/settings/system.c:540;Nepřeloženo
+;Company;fw/apps/system/settings/system.c:984;Nepřeloženo
+;Product Model;fw/apps/system/settings/system.c:992;Nepřeloženo
+;Product Type;fw/apps/system/settings/system.c:999;Nepřeloženo
+;Trademark;fw/apps/system/settings/system.c:1006;Nepřeloženo
+;Place of Origin;fw/apps/system/settings/system.c:1013;Nepřeloženo
+;DC Input;fw/apps/system/settings/system.c:1020;Nepřeloženo
+;Rated Voltage;fw/apps/system/settings/system.c:1027;Nepřeloženo
+;Milliampere-hour;fw/apps/system/settings/system.c:1034;Nepřeloženo
+;Watt-hour;fw/apps/system/settings/system.c:1041;Nepřeloženo
+;Canada IC;fw/apps/system/settings/system.c:1055;Nepřeloženo
+;Canada ISED;fw/apps/system/settings/system.c:1062;Nepřeloženo
+;South Korea KCC;fw/apps/system/settings/system.c:1076 fw/apps/system/settings/system.c:1186;Nepřeloženo
+;Accent Color;fw/apps/system/settings/themes.c:98;Nepřeloženo
+;Set Time;fw/apps/system/settings/time.c:261 fw/apps/system/settings/time.c:364;Nepřeloženo
+;Set Date;fw/apps/system/settings/time.c:300 fw/apps/system/settings/time.c:372;Nepřeloženo
+;Time Source;fw/apps/system/settings/time.c:359;Nepřeloženo
+;Overlay;"/ Shows up in the Timeline settings as an ""Unsupported Faces"" submenu option. | fw/apps/system/settings/timeline.c:86";Nepřeloženo
+;Shift up;"/ Shows up in the Timeline settings as an ""Unsupported Faces"" submenu option. | fw/apps/system/settings/timeline.c:88";Nepřeloženo
+;Squish up;"/ Shows up in the Timeline settings as an ""Unsupported Faces"" submenu option. | fw/apps/system/settings/timeline.c:90";Nepřeloženo
+;Unsupported Faces;/ Shows up in the Timeline settings as the title for unsupported watchface behavior. | / Shows up in the Timeline settings for watchfaces that do not support Quick View. | fw/apps/system/settings/timeline.c:152 | fw/apps/system/settings/timeline.c:202;Nepřeloženo
+;Hourly Notice;fw/apps/system/settings/vibe_patterns.c:95;Nepřeloženo
+;On Disconnect;fw/apps/system/settings/vibe_patterns.c:100;Nepřeloženo
+;Toggle Airplane Mode;/ The Quick Launch action that toggles Airplane Mode. | fw/apps/system/toggle/airplane_mode.c:52;Nepřeloženo
+;Toggle Backlight;/ The Quick Launch action that toggles the backlight. | fw/apps/system/toggle/backlight_state.c:53;Nepřeloženo
+;Toggle Motion Backlight;/ The Quick Launch action that toggles the motion backlight. | fw/apps/system/toggle/motion_backlight.c:50;Nepřeloženo
+;Toggle Quiet Time;/ The Quick Launch action that toggles Quiet Time. | fw/apps/system/toggle/quiet_time.c:25;Nepřeloženo
+;Turn On Touch?;fw/apps/system/toggle/touch.c:23;Nepřeloženo
+;Turn Off Touch?;fw/apps/system/toggle/touch.c:24;Nepřeloženo
+;Touch On;fw/apps/system/toggle/touch.c:25;Nepřeloženo
+;Touch Off;fw/apps/system/toggle/touch.c:26;Nepřeloženo
+;Toggle Touch;/ The Quick Launch action that turns the touchscreen on or off. | fw/apps/system/toggle/touch.c:50;Nepřeloženo
+;Sunset --:--;fw/apps/system/weather/expanded_view.c:175;Nepřeloženo
+;Sunset %s;fw/apps/system/weather/expanded_view.c:178;Nepřeloženo
+;Last updated --:--;fw/apps/system/weather/expanded_view.c:203;Nepřeloženo
+;Last updated %s;fw/apps/system/weather/expanded_view.c:206;Nepřeloženo
+;PRECIPITATION: --;fw/apps/system/weather/expanded_view.c:390;Nepřeloženo
+;PRECIPITATION: %d%%;fw/apps/system/weather/expanded_view.c:392;Nepřeloženo
+;CURRENT UV;fw/apps/system/weather/expanded_view.c:475;Nepřeloženo
+;UV %d;fw/apps/system/weather/expanded_view.c:484;Nepřeloženo
+;UV --;fw/apps/system/weather/expanded_view.c:486;Nepřeloženo
+;RAIN %d%%;fw/apps/system/weather/expanded_view.c:488;Nepřeloženo
+;RAIN --;fw/apps/system/weather/expanded_view.c:490;Nepřeloženo
+;UV;fw/apps/system/weather/expanded_view.c:498;Nepřeloženo
+;RAIN;fw/apps/system/weather/expanded_view.c:500;Nepřeloženo
+;WEATHER REPORT;fw/apps/system/weather/forecast_list.c:1278;Nepřeloženo
+;PRECIPITATION;"/ row at 164: with the deeper section lift (EXTRA_LIFT 19) the | scrolled column's air splits evenly — solved for disc->graph = graph->pill = | %-row->dot (~10-11px each; the graph auto-centres in its band, so the split | holds for any temp spread). | fw/apps/system/weather/forecast_list.c:1599";Nepřeloženo
+;%a, %b %d;fw/apps/system/weather/forecast_list.c:2217;Nepřeloženo
+;Saved Location;fw/apps/system/weather/globe_view.c:2156;Nepřeloženo
+;Current Location;fw/apps/system/weather/globe_view.c:2160 | fw/apps/system/weather/globe_view.c:3688 | fw/apps/system/weather/globe_view.c:3742 | fw/apps/system/weather/saved_locations.c:160;Nepřeloženo
+;CITY SELECT;fw/apps/system/weather/globe_view.c:3090 | fw/apps/system/weather/globe_view.c:3097;Nepřeloženo
+;SAVED LOCATIONS;fw/apps/system/weather/globe_view.c:3158 | fw/apps/system/weather/globe_view.c:3190;Nepřeloženo
+;Location;fw/apps/system/weather/saved_locations.c:159;Nepřeloženo
+;No Locations;fw/apps/system/weather/saved_locations.c:241;Nepřeloženo
+;Add them in the app;fw/apps/system/weather/saved_locations.c:242;Nepřeloženo
+;Sunny;fw/apps/system/weather/weather.c:99;Nepřeloženo
+;Partly Cloudy;fw/apps/system/weather/weather.c:101;Nepřeloženo
+;Cloudy;fw/apps/system/weather/weather.c:103;Nepřeloženo
+;Light Rain;fw/apps/system/weather/weather.c:105;Nepřeloženo
+;Rain;fw/apps/system/weather/weather.c:107;Nepřeloženo
+;Light Snow;fw/apps/system/weather/weather.c:109;Nepřeloženo
+;Snow;fw/apps/system/weather/weather.c:111;Nepřeloženo
+;Rain & Snow;fw/apps/system/weather/weather.c:113;Nepřeloženo
+;Snow likely;fw/apps/system/weather/weather_app_layout.c:406;Nepřeloženo
+;Sleet likely;fw/apps/system/weather/weather_app_layout.c:408;Nepřeloženo
+;Rain likely;fw/apps/system/weather/weather_app_layout.c:410;Nepřeloženo
+;Chance of snow;fw/apps/system/weather/weather_app_layout.c:418;Nepřeloženo
+;Chance of sleet;fw/apps/system/weather/weather_app_layout.c:420;Nepřeloženo
+;Chance of rain;fw/apps/system/weather/weather_app_layout.c:422;Nepřeloženo
+;Hail;fw/apps/system/weather/weather_app_layout.c:460;Nepřeloženo
+;Chance of storms;fw/apps/system/weather/weather_app_layout.c:462;Nepřeloženo
+;Heavy snow;fw/apps/system/weather/weather_app_layout.c:464;Nepřeloženo
+;Heavy rain;fw/apps/system/weather/weather_app_layout.c:466;Nepřeloženo
+;Wintry mix;fw/apps/system/weather/weather_app_layout.c:468;Nepřeloženo
+;Flood risk;fw/apps/system/weather/weather_app_layout.c:470;Nepřeloženo
+;Strong winds;fw/apps/system/weather/weather_app_layout.c:472;Nepřeloženo
+;Below freezing;fw/apps/system/weather/weather_app_layout.c:475;Nepřeloženo
+;Hard frost;fw/apps/system/weather/weather_app_layout.c:477;Nepřeloženo
+;Feels below freezing;fw/apps/system/weather/weather_app_layout.c:480;Nepřeloženo
+;Heatwave;fw/apps/system/weather/weather_app_layout.c:482;Nepřeloženo
+;Very high UV;fw/apps/system/weather/weather_app_layout.c:484;Nepřeloženo
+;High UV;fw/apps/system/weather/weather_app_layout.c:486;Nepřeloženo
+;Poor visibility;fw/apps/system/weather/weather_app_layout.c:489;Nepřeloženo
+;High humidity;fw/apps/system/weather/weather_app_layout.c:491;Nepřeloženo
+;Windy;fw/apps/system/weather/weather_app_layout.c:497;Nepřeloženo
+;Clear skies;fw/apps/system/weather/weather_app_layout.c:502;Nepřeloženo
+;Light winds;fw/apps/system/weather/weather_app_layout.c:504;Nepřeloženo
+;Calm breeze;fw/apps/system/weather/weather_app_layout.c:507;Nepřeloženo
+;Fair conditions;fw/apps/system/weather/weather_app_layout.c:510;Nepřeloženo
+;Mild conditions;fw/apps/system/weather/weather_app_layout.c:512;Nepřeloženo
+;All clear;fw/apps/system/weather/weather_app_layout.c:514;Nepřeloženo
+;N;fw/apps/system/weather/weather_app_layout.c:524;Nepřeloženo
+;NE;fw/apps/system/weather/weather_app_layout.c:524;Nepřeloženo
+;E;fw/apps/system/weather/weather_app_layout.c:524;Nepřeloženo
+;SE;fw/apps/system/weather/weather_app_layout.c:524;Nepřeloženo
+;S;fw/apps/system/weather/weather_app_layout.c:525;Nepřeloženo
+;SW;fw/apps/system/weather/weather_app_layout.c:525;Nepřeloženo
+;W;fw/apps/system/weather/weather_app_layout.c:525;Nepřeloženo
+;NW;fw/apps/system/weather/weather_app_layout.c:525;Nepřeloženo
+;mph;fw/apps/system/weather/weather_app_layout.c:549;Nepřeloženo
+;km/h;fw/apps/system/weather/weather_app_layout.c:549;Nepřeloženo
+;%s at %d%s.;fw/apps/system/weather/weather_app_layout.c:551;Nepřeloženo
+;Winds %s at %d%s.;fw/apps/system/weather/weather_app_layout.c:551;Nepřeloženo
+;At %d%s.;fw/apps/system/weather/weather_app_layout.c:556;Nepřeloženo
+;Winds at %d%s.;fw/apps/system/weather/weather_app_layout.c:556;Nepřeloženo
+;Precipitation %d%%.;fw/apps/system/weather/weather_app_layout.c:565;Nepřeloženo
+;TODAY;fw/apps/system/weather/weather_app_layout.c:840 | fw/apps/system/weather/weather_app_layout.c:1128;Nepřeloženo
+;UV INDEX;fw/apps/system/weather/weather_app_layout.c:968 | fw/apps/system/weather/weather_app_layout.c:1064;Nepřeloženo
+;Your heart rate has been shared with an app on your phone for several hours. This could affect your battery. Stop sharing now?;fw/popups/ble_hrm/ble_hrm_reminder_popup.c:15;Nepřeloženo
+;Sharing Heart Rate;fw/popups/ble_hrm/ble_hrm_sharing_popup.c:29;Nepřeloženo
+;Share heart rate?;fw/popups/ble_hrm/ble_hrm_sharing_popup.c:66;Nepřeloženo
+;Heart Rate Not Shared;fw/popups/ble_hrm/ble_hrm_stop_sharing_popup.c:17;Nepřeloženo
+;Mute 1 Hour;fw/popups/notifications/notification_window.c:963;Nepřeloženo
+;Mute Today;fw/popups/notifications/notification_window.c:966;Nepřeloženo
+;This app uses RockyJS which is no longer supported.;fw/process_management/process_manager.c:340;Nepřeloženo
+;h;fw/services/activity/health_util.c:96;Nepřeloženo
+;min;fw/services/activity/health_util.c:112;Nepřeloženo
+;iPhone Notifications Blocked;fw/services/notifications/ancs/ancs_notifications.c:412;Nepřeloženo
+;Your iPhone is not sharing notifications with this watch. On your iPhone, open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share System Notifications.;fw/services/notifications/ancs/ancs_notifications.c:415;Nepřeloženo
+;Sunrise;fw/services/timeline/weather_layout.c:51;Nepřeloženo
+;Sunset;fw/services/timeline/weather_layout.c:53;Nepřeloženo
+;Gentle;fw/services/vibes/vibes.def:15;Nepřeloženo
+;Double Pulse Medium;fw/services/vibes/vibes.def:16;Nepřeloženo
+;Pebble Morse;fw/services/vibes/vibes.def:17;Nepřeloženo
+;Heartbeat;fw/services/vibes/vibes.def:18;Nepřeloženo
+;Wave;fw/services/vibes/vibes.def:20;Nepřeloženo
