@@ -1,0 +1,10 @@
+gettext kontext;Anglicky;Česky – návrh;Poznámka
+;Sound;Zvuk;Název položky v detailu budíku
+;Vibration: On;Vibrace: zapnuto;Stav vibrací v detailu budíku
+;Vibration: Off;Vibrace: vypnuto;Stav vibrací v detailu budíku
+;Sounds & Haptics;Zvuk a vibrace;Název sekce nastavení
+AlarmSound;Off;Vypnuto;Vypnutý zvuk budíku, gettext kontext AlarmSound
+;Reveille;Budíček;Název zvuku budíku
+;Beacon;Maják;Název zvuku budíku
+;Bell;Zvonek;Název zvuku budíku
+;Chime;Zvonkohra;Název zvuku budíku

@@ -1,0 +1,645 @@
+﻿Anglicky;Česky – návrh;Kontext / poznámka
+%.*s is not responding;%.*s nereaguje;
+This app requires a newer version of the Pebble firmware.;Tato aplikace vyžaduje novější verzi firmwaru Pebble.;
+Snooze for %d minutes;Odložit na %d minut;
+Alarm dismissed;Alarm zrušen;
+Pair?;Párovat?;
+"%s%.*s is not responding.
+
+Open app?";"%s%.*s nereaguje.
+
+Otevřít aplikaci?";
+A bug report has been captured. Please finish uploading the bug report using the Pebble phone app.;Bylo zachyceno hlášení o chybě. Dokončete prosím nahrávání hlášení o chybě pomocí aplikace Pebble pro telefon.;
+This app requires Pebble Health to work. Enable Health in the Pebble mobile app to continue.;Tato aplikace vyžaduje ke svému fungování Pebble Health. Chcete-li pokračovat, povolte Zdraví v mobilní aplikaci Pebble.;
+This feature requires Pebble Health to work. Enable Health in the Pebble mobile app to continue.;Tato funkce vyžaduje ke svému fungování Pebble Health. Chcete-li pokračovat, povolte Zdraví v mobilní aplikaci Pebble.;
+Snoozed;Odloženo;
+Muted;Ztlumeno;
+Snooze;Odložit;
+Mute %s;Ztlumit %s;
+Mute Always;Vždy ztlumit;
+Mute Weekends;Ztlumit víkendy;
+Mute Weekdays;Ztlumit všední dny;
+Dismiss All;Odmítnout vše;
+End Quiet Time;Konec Tichého Času;
+Start Quiet Time;Start Tichého Času;
+Call Accepted;Hovor přijat;
+Disconnected;Odpojeno;
+Call Ended;Hovor ukončen;
+Call Declined;Hovor odmítnut;
+Run %s instead of %s as the background app?;Spustit %s místo %s jako aplikaci na pozadí?;
+"While your Pebble was off wakeup events occurred for:
+";Když byl váš Pebble vypnutý, došlo k událostem probuzení pro:;
+Fully Charged;Plně nabito;
+Charging;Nabíjení;
+Powered 'til %s;Vydrží do %s;
+Your screen may need calibration. Calibrate it now?;Vaše obrazovka může vyžadovat kalibraci. Kalibrovat to teď?;
+Update Complete;Aktualizace dokončena;
+Update Failed;Aktualizace se nezdařila;
+Snooze delay set to %d minutes;Odložení nastaveno na %d minut;
+Delete;Vymazat;
+Disable;Zakázat;
+Enable;Povolit;
+Change Time;Změnit čas;
+Change Days;Změnit dny;
+Convert to Basic Alarm;Převést na základní budík;
+Convert to Smart Alarm;Převést na chytrý budík;
+Snooze Delay;Odložení zpoždění;
+5 minutes;5 minut;
+10 minutes;10 minut;
+15 minutes;15 minut;
+30 minutes;30 minut;
+1 hour;1 hodina;
+Check something first.;Nejprve něco zkontrolujte.;
+New Smart Alarm;Nový chytrý budík;
+New Alarm;Nový budík;
+Wake up between;Probuďte se mezi;"/ Displays as ""Wake up between"" then ""8:00 AM - 8:30 AM"" below on a separate line"
+Wake up interval;Interval probuzení;"/ Displays as ""8:00 AM - 8:30 AM"" then ""Wake up interval"" below on a separate line"
+Basic Alarm;Základní budík;
+Smart Alarm;Chytrý budík;
+Alarm Deleted;Budík smazán;
+Limit reached.;Limit dosažen.;
+ON;ZAPNUTO;
+OFF;VYPNUTO;
+Let us wake you in your lightest sleep so you're fully refreshed! Smart Alarm wakes you up to 30min before your alarm.;Probudíme vás v nejlehčím spánku, abyste byli plně svěží! Chytrý budík vás probudí až 30 minut před budíkem.;
+Alarms;Budíky;
+Not connected;Nepřipojeno;
+"No internet
+connection";"Žádné připojení
+k internetu";
+No internet connection;Žádné připojení k internetu;
+Incompatible JS;Nekompatibilní JS;
+Failed;Selhalo;
+Psst! Want smart tips about your activity and sleep? You can enable Insights in the mobile app.;Psst! Chcete chytré tipy ohledně vaší aktivity a spánku? Statistiky můžete povolit v mobilní aplikaci.;/ Insights onboarding message
+Track your steps, sleep, and more! Enable Pebble Health in the mobile app.;Sledujte své kroky, spánek a další! Povolte Pebble Health v mobilní aplikaci.;/ Health disabled text
+Health requires the time to be synced. Please connect your phone.;Zdraví vyžaduje synchronizaci času. Připojte prosím svůj telefon.;/ Health waiting for time sync
+Health;Zdraví;
+MI;MI;
+KM;KM;
+30 DAY AVG;30 DENNÍ PRŮM;
+CALORIES;KALORIE;
+DISTANCE;VZDÁLENOST;/ Distance Label
+Today;Dnes;
+: ;:;
+%a: ;%a:;
+SMTWTFS;NPUSČPS;
+Fat Burn;Spalování tuků;
+Endurance;Vytrvalost;
+Performance;Výkon;
+TIME IN ZONES;ČAS V ZÓNÁCH;/ Resting HR
+BPM;BPM;
+Enable heart rate monitoring in the mobile app;Povolte sledování srdečního tepu v mobilní aplikaci;/ HRM disabled
+30 DAY;30 DNÍ;
+SLEEP SESSION;OBDOBÍ SPÁNKU;
+DEEP SLEEP;HLUBOKÝ SPÁNEK;
+"No sleep data,
+wear your watch
+to sleep";"Žádné údaje o spánku,
+noste hodinky
+při spaní";
+TYPICAL %s;TYPICKÉ %s;
+--°;--°;/ Shown when the current temperature is unknown / Shown when today's current temperature is unknown
+%i° - %s;%i° - %s;"/ Shown when today's temperature and conditions phrase is known (e.g. ""52° - Fair"")"
+%i°;%i°;"/ Today's current temperature (e.g. ""68°"")"
+"START PLAYBACK
+ON YOUR PHONE";"SPUSTIT PŘEHRÁVÁNÍ
+NA TELEFONU";
+Music;Hudba;
+Done;Hotovo;
+Clear history?;Vymazat historii?;
+Clear All;Vymazat vše;
+No notifications;Žádná oznámení;
+Notifications;Oznámení;
+Completed;Dokončeno;
+Postpone;Odložit;
+Remove;Odstranit;
+Added;Přidáno;
+Reminder;Připomínka;
+Unknown;Neznámý;
+Select Contact;Vyberte kontakt;
+"Add contacts in
+mobile app";"Přidejte kontakty
+v mobilní aplikaci";
+Send Text;Odeslat text;
+Settings;Nastavení;
+No background apps;Žádné aplikace na pozadí;
+None;Žádný;/ No Notification Window Timeout
+Background App;Aplikace na pozadí;
+<Untitled>;<Bez názvu>;
+Pairing Instructions;Pokyny pro párování;
+%u Paired Phones;%u Spárované telefony;
+%u Paired Phone;%u Spárovaný telefon;
+No LE;Žádné LE;
+LE Only;Pouze LE;
+Connected;Připojeno;
+Sharing Heart Rate ❤;Sdílení srdečního tepu ❤;
+Connection;Spojení;
+Airplane Mode;Režim Letadlo;
+Disabling...;Deaktivace...;
+Enabling...;Povolení...;
+Disable Airplane Mode to connect.;Pro připojení vypněte režim Letadlo.;
+Open the Pebble app on your phone to connect.;Pro připojení otevřete v telefonu aplikaci Pebble.;
+Forget this device to pair a new device.;Zapomeňte toto zařízení pro nové spárování.;
+Bluetooth;Bluetooth;
+Low;Nízký;
+Medium;Střední;
+High;Vysoký;
+Blinding;Oslepující;
+INTENSITY;INTENZITA;
+Intensity;Intenzita;
+Default;Výchozí;
+Left-Handed;Levoruký;
+Orientation;Orientace;
+3 Seconds;3 sekundy;
+5 Seconds;5 sekund;
+8 Seconds;8 sekund;
+TIMEOUT;TIMEOUT;
+Timeout;Časový limit;/ Status bar title for the Notification Window Timeout settings screen / String within Settings->Notifications that describes the window timeout setting
+Bezel;Rámeček;
+Scaled;Měřítko;
+Legacy App Display;Zobrazení starších aplikací;
+Language;Jazyk;
+Backlight;Podsvícení;
+On;Zapnuto;"/ Shows up in the Timeline settings as the status under the ""Quick View"" toggle."
+Off;Vypnuto;"/ Shows up in the Timeline settings as the status under the ""Quick View"" toggle."
+Motion Enabled;Pohyb povolen;
+Ambient Sensor;Senzor okolí;
+Dynamic Backlight;Dynamické podsvícení;
+Max Intensity;Maximální intenzita;
+Screen Alignment;Zarovnání obrazovky;
+Legacy Apps;Starší aplikace;
+Centered;Na střed;
+Display;Zobrazit;
+Horizontal Alignment;Horizontální zarovnání;
+Vertical Alignment;Vertikální zarovnání;
+Confirm Alignment;Potvrďte zarovnání;
+"Up/Down to adjust
+Select to proceed";"Nahoru/dolů pro nastavení
+Prostřední potvrdí";
+Select to confirm alignment changes;Výběrem potvrďte změny zarovnání;
+Resetting...;Resetování...;
+Perform factory reset?;Obnovit tovární nastavení?;
+Allow All Notifications;Povolit všechna oznámení;
+Allow Phone Calls Only;Povolit pouze hovory;
+Mute All Notifications;Ztlumit všechna oznámení;
+Filter;Filtr;/ The option in the Settings app for filtering notifications by type.
+Disabled;Zakázáno;NotifVibe
+Low;Nízký;NotifVibe
+Medium;Střední;NotifVibe
+High;Vysoký;NotifVibe
+Vibration;Vibrace;/ The option in the Settings app for choosing a vibration intensity for notifications.
+Smaller;Menší;
+Larger;Větší;
+Text Size;Velikost textu;/ The option in the Settings app for choosing the text size of notifications. / String within Settings->Notifications that describes the text font size
+15 Seconds;15 sekund;/ 15 Second Notification Window Timeout
+1 Minute;1 minuta;/ 1 Minute Notification Window Timeout
+3 Minutes;3 minuty;/ 3 Minute Notification Window Timeout
+10 Minutes;10 minut;/ 10 Minute Notification Window Timeout
+Classic;Klasický;/ Standard notification design option (default)
+Flat Black;Plochá černá;/ Alternative notification design option
+Banner Style;Styl banneru;/ Status bar title for the Notification Design Style settings screen / String within Settings->Notifications that describes the notification design style
+Disabled (Plugged In);Zakázáno (zapojeno);
+Tap Up;Klepněte Nahoru;/ Shown in Quick Launch Settings as the title of the tap up button option.
+Tap Down;Klepněte Dolů;/ Shown in Quick Launch Settings as the title of the tap down button option.
+Hold Up;Držte Nahoru;/ Shown in Quick Launch Settings as the title of the hold up button quick launch option.
+Hold Center;Držte Střed;/ Shown in Quick Launch Settings as the title of the hold center button quick launch option.
+Hold Down;Držte Dolů;/ Shown in Quick Launch Settings as the title of the hold down button quick launch option.
+Hold Back;Držte Zpět;/ Shown in Quick Launch Settings as the title of the hold back button quick launch option.
+Disabled;Zakázáno;/ Shown in Quick Launch Settings when the button is disabled.
+Quick Launch;Rychlé spuštění;/ Title of the Quick Launch Settings submenu in Settings / Title for the Quick Launch first use dialog.
+Open favorite apps quickly with a long button press from your watchface.;Otevírejte oblíbené aplikace rychle dlouhým stisknutím tlačítka na ciferníku.;/ Help text for the Quick Launch first use dialog.
+Quiet All Notifications;Ztlumit všechna upozornění;
+Allow Phone Calls;Povolit hovory;
+Change Schedule;Změnit plán;
+Manual;Ruční;
+Calendar Aware;Podle kalendáře;
+Enabled;Povoleno;QuietTime
+Disabled;Zakázáno;QuietTime
+Weekdays;všední dny;#-#-#-#-#  services.pot (PACKAGE VERSION)  #-#-#-#-# / A frequency option for alarms, i.e. the alarm would only go off every weekday. Respect / capitalization!
+Weekends;Víkendy;#-#-#-#-#  services.pot (PACKAGE VERSION)  #-#-#-#-# / A frequency option for alarms, i.e. the alarm would only go off each day on the weekend. / Respect capitalization!
+Interruptions;Přerušení;
+Quiet Time;Tichý čas;
+You're all set;Vše je připraveno;
+Forget;Zapomenout;
+Stop Sharing Heart Rate;Přestaňte sdílet srdeční tep;
+Information;Informace;
+Certification;Certifikace;
+Stand-By Mode;Pohotovostní režim;
+Debugging;Ladění;
+Shut Down;Vypnout;
+Factory Reset;Obnovení továrního nastavení;
+BT Address;Adresa BT;
+Firmware;Firmware;
+Recovery;Zotavení;
+Bootloader;Bootloader;
+Hardware;Hardware;
+Serial;Sériové;
+Uptime;Doba provozu;
+Legal;Právní;
+Core dump and reboot?;Vypsat jádro a restartovat?;
+Very Low;Velmi nízká;
+Medium-Low;Střední-Nízká;
+Medium-High;Středně vysoká;
+Very High;Velmi vysoká;
+Motion Sensitivity;Citlivost na pohyb;
+CoreDump now;CoreDump teď;
+CoreDump shortcut;CoreDump zkratka;
+ALS Threshold;Práh ALS;
+Dyn BL Min Threshold;Dyn BL Min Threshold;
+Dyn BL Max Threshold;Dyn BL Max Threshold;
+10 back-button presses;10 stisknutí tlačítka zpět;
+PebbleOS developers only!;Pouze vývojáři PebbleOS!;
+See details...;Zobrazit podrobnosti...;
+Do you want to shut down?;Chcete vypnout?;
+System;Systém;/ Refers to the class of all non-score vibes, e.g. 3rd party app vibes
+Apps Accent;Apps Accent;
+Settings Accent;Settings Accent;
+Apps Menu Accent;Apps Menu Accent;
+Settings Menu Accent;Settings Menu Accent;
+Themes;Témata;/ Title of the Themes Settings submenu in Settings
+Timezone;Časové pásmo;/ Title of the menu for changing the watch's timezone.
+Time Format;Formát času;
+24h;24h;
+12h;12h;
+Timezone Source;Zdroj časového pásma;
+Automatic;Automatický;
+Date & Time;Datum a čas;
+Start Time;Čas zahájení;"/ Shows up in the Timeline settings as a ""Timing"" subtitle and submenu option."
+5 Min Before;5 minut předem;"/ Shows up in the Timeline settings as a ""Timing"" subtitle and submenu option."
+10 Min Before;10 minut předem;"/ Shows up in the Timeline settings as a ""Timing"" subtitle and submenu option."
+15 Min Before;15 minut předem;"/ Shows up in the Timeline settings as a ""Timing"" subtitle and submenu option."
+30 Min Before;30 minut předem;"/ Shows up in the Timeline settings as a ""Timing"" subtitle and submenu option."
+Timing;Načasování;"/ Shows up in the Timeline settings as the title for the ""Timing"" submenu window. / Shows up in the Timeline settings as the title for the menu item that controls the / timing for when to begin showing the peek for an event."
+Quick View;Rychlý náhled;"/ Shows up in the Timeline settings as a toggle-able ""Quick View"" item. / Title for the Timeline Quick View first use dialog."
+Appears on your watchface when an event is about to start.;Zobrazí se na ciferníku, když se blíží začátek události.;/ Help text for the Timeline Quick View first use dialog.
+Timeline;Časová osa;
+Incoming Calls;Příchozí hovory;
+Vibrations;Vibrace;
+No events;Žádné události;
+Timeline Future;Časová osa budoucnost;
+Timeline Past;Časová osa minulost;"/ The title of Timeline Past in Quick Launch. If the translation is too long, cut out / Timeline and only translate ""Past""."
+Turn On Airplane Mode?;Zapnout režim Letadlo?;
+Turn Off Airplane Mode?;Vypnout režim Letadlo?;
+"Airplane
+Mode On";"Režim
+letadlo zapnutý";
+"Airplane
+Mode Off";"Režim
+letadlo vypnutý";
+Turn On Backlight?;Zapnout podsvícení?;
+Turn Off Backlight?;Vypnout podsvícení?;
+Backlight On;Podsvícení zapnuto;
+Backlight Off;Podsvícení vypnuto;
+Turn On Motion Backlight?;Zapnout podsvícení pohybem?;
+Turn Off Motion Backlight?;Vypnout podsvícení pohybem?;
+"Motion
+Backlight On";"Podsvícení
+pohybem zapnuto";
+"Motion
+Backlight Off";"Podsvícení
+pohybem vypnuto";
+Motion Backlight;Podsvícení pohybem;
+Active;Aktivní;
+Watchfaces;Ciferníky;
+No location information available. To see weather, add locations in your Pebble mobile app.;Nejsou k dispozici žádné informace o poloze. Chcete-li zobrazit počasí, přidejte místa do své mobilní aplikace Pebble.;/ Shown when there are no forecasts available to show the user
+"Unable to connect. Your weather data may be out of date; try checking the connection on your phone.";"Nelze se připojit. Vaše údaje o počasí mohou být zastaralé, zkuste zkontrolovat připojení v telefonu.";/ Shown when there is no connection to the phone and the data that we have is not recent
+Weather;Počasí;
+--° / --°;--° / --°;/ Shown when neither high nor low temperature is known
+%i° / --°;%i° / --°;"/ Shown when only the day's high temperature is known, (e.g. ""68° / --°"")"
+--° / %i°;--° / %i°;"/ Shown when only the day's low temperature is known (e.g. ""--° / 52°"")"
+%i° / %i°;%i° / %i°;"/ A day's high and low temperature, separated by a foward slash (e.g. ""68° / 52°"")"
+TOMORROW;ZÍTRA;/ Refers to the weather conditions for tomorrow
+Sports;Sportování;
+"Workout
+Ended";"Cvičení
+skončilo";
+Workout requires the time to be synced. Please connect your phone.;Cvičení vyžaduje synchronizaci času. Připojte prosím svůj telefon.;/ Workouts waiting for time sync
+Enable Pebble Health in the mobile app to track workouts;Povolte Pebble Health v mobilní aplikaci pro sledování tréninků;/ Health disabled text
+Wear your watch snug and 2 fingers' width above your wrist bone for best results.;Chcete-li dosáhnout nejlepších výsledků, noste hodinky těsně a na šířku 2 prstů nad zápěstí.;/ Workout app first use text
+Workout;Cvičení;#-#-#-#-#  fw.pot (PACKAGE VERSION)  #-#-#-#-# / Workout Label
+FAT BURN;SPALOVÁNÍ TUKU;/ Zone 1 HR Label
+ENDURANCE;VYTRVALOST;/ Zone 2 HR Label
+PERFORMANCE;VÝKON;/ Zone 3 HR Label
+HEART RATE;SRDEČNÍ TEP;/ Default/Zone 0 HR Label
+DURATION;TRVÁNÍ;/ Duration Label
+AVG PACE;PRůM TEMPO;/ Average Pace Label
+AVG PACE (/MI);PRůM TEMPO (/MI);/ Average Pace Label with units
+AVG PACE (/KM);PRůM TEMPO (/KM);
+PACE;TEMPO;/ Pace Label
+PACE (/MI);TEMPO (/MI);/ Pace Label with units
+PACE (/KM);TEMPO (/KM);
+SPEED;RYCHLOST;/ Speed Label
+SPEED (MPH);RYCHLOST (MPH);/ Speed Label with units
+SPEED (KM/H);RYCHLOST (KM/H);
+DISTANCE (MI);VZDÁLENOST (MI);/ Distance Label with units
+DISTANCE (KM);VZDÁLENOST (KM);
+STEPS;KROKY;/ Steps Label
+MPH;MPH;
+KM/H;KM/H;
+End Workout?;Ukončit cvičení?;
+Still sweating? Your workout is active and will be ended soon. Open the workout to keep it going.;Pořád se potíte? Váš trénink je aktivní a bude brzy ukončen. Otevřete trénink, abyste v něm pokračovali.;
+Dismiss;Odmítnout;
+End Workout;Ukončit cvičení;
+Open Workout;Otevřít cvičení;
+Walk;Chůze;#-#-#-#-#  fw.pot (PACKAGE VERSION)  #-#-#-#-# / Walk Label
+Run;Běh;#-#-#-#-#  fw.pot (PACKAGE VERSION)  #-#-#-#-# / Run Label
+"Workout
+Detected";"Cvičení
+zjištěno";/ Workout automatically detected dialog text
+"Walk
+Detected";"Chůze
+zjištěna";/ Walk automatically detected dialog text
+"Run
+Detected";"Běh
+zjištěn";/ Run automatically detected dialog text
+%d BPM;%d BPM;
+%d,%03d;%d,%03d;/ Step count greater than 1000 with a thousands seperator
+%d;%d;#-#-#-#-#  fw.pot (PACKAGE VERSION)  #-#-#-#-# / Step count less than 1000
+Remember to also forget your Pebble's Bluetooth connection from your phone.;Nezapomeňte také odpojit Bluetooth připojení vašeho Pebble z vašeho telefonu.;
+Standard - Low;Standardní - Nízká;#-#-#-#-#  services.pot (PACKAGE VERSION)  #-#-#-#-# / Standard vibration pattern option that has a low intensity
+Standard - High;Standardní - Vysoká;#-#-#-#-#  services.pot (PACKAGE VERSION)  #-#-#-#-# / Standard vibration pattern option that has a high intensity
+Pulse;Puls;
+Nudge Nudge;Ťuk ťuk;
+Jackhammer;Sbíječka;
+%R;%R;
+%l:%M;%l:%M;
+%p;%p;
+All day;Celý den;
+Now;Teď;
+ MIN. TO;MIN. DO;
+Yesterday;Včera;
+Tomorrow;Zítra;
+%A;%A;
+%B %d;%B %d;
+%l:%M %p;%l:%M %p;
+Yesterday, %l:%M %p;Včera, %l:%M %p;
+Yesterday, %R;Včera, %R;
+%b %e, %l:%M %p;%b %e, %l:%M %p;
+%B %e;%B %e;
+%b %e, %R;%b %e, %R;
+%a, %l:%M %p;%a, %l:%M %p;
+%a, %R;%a, %R;
+%lu H AGO;PŘED %lu H;
+An hour ago;Před hodinou;
+%lu hours ago;před %lu hodinami;
+%lu MIN AGO;PŘED %lu MIN;
+%lu minute ago;Před %lu minutou;
+%lu minutes ago;Před %lu minutami;
+NOW;TEĎ;
+IN %lu MIN;ZA %lu MIN;
+In %lu minute;Za %lu minutu;
+In %lu minutes;Za %lu minut;
+IN %lu H;ZA %lu H;
+In %lu hour;Za %lu hodinu;
+In %lu hours;Za %lu hodin;
+%m/%d;%m/%d;
+%b ;%b;
+%B ;%B;
+%e;%e;
+this morning;dnes ráno;
+this afternoon;dnes odpoledne;
+this evening;dnes večer;
+tonight;dnes v noci;
+tomorrow morning;zítra ráno;
+tomorrow afternoon;zítra odpoledne;
+tomorrow evening;zítra večer;
+tomorrow night;zítra v noci;
+the day after tomorrow;pozítří;
+the foreseeable future;v dohledné budoucnosti;
+How are you feeling? Have you noticed extra focus, better mood or extra energy? You have been sleeping great this week! Keep it up!;Jak se cítíte? Všimli jste si většího soustředění, lepší nálady nebo energie navíc? Tento týden jste spali skvěle! Jen tak dál!;
+I feel fabulous!;Cítím se báječně!;
+About average;Zhruba průměrně;
+I'm still tired;Jsem pořád unavený;
+Awesome!;Bezva!;
+Keep it up!;Jen tak dál!;
+We'll get there!;Dostaneme se tam!;
+Congratulations - you're having a super active day! Activity makes you more focused and creative. How do you feel?;Gratulujeme - máte super aktivní den! Díky aktivitě budete soustředěnější a kreativnější. Jak se cítíte?;
+I feel great!;Cítím se skvěle!;
+About the same;Zhruba stejně;
+Not feeling it;Necítím to;
+Activity Summary;Shrnutí aktivity;
+Do you feel more energetic, sharper or optimistic? Being active helps!;Cítíte se nabitější, bystřejší nebo nadšenější? Být aktivní pomáhá!;
+GREAT DAY TODAY;DNES SKVĚLÝ DEN;
+You're being consistent and that's important, keep at it!;Jste důslední a to je důležité, vydržte!;
+CONSISTENT!;KONZISTENTNÍ!;
+Resting is fine, but try to recover and step it up tomorrow!;Odpočinek je fajn, ale zkuste se vzpamatovat a zítra to zrychlit!;
+NOT VERY ACTIVE;NEPŘÍLIŠ AKTIVNÍ;
+Sleep Summary;Shrnutí spánku;
+You had a good night! Feel the energy 😃;|To byla skvělá noc! Vnímejte energii 😃;
+It's great that you're keeping a consistent sleep routine!;Je skvělé, že dodržujete konzistentní spánkovou rutinu!;
+A good night's sleep goes a long way! Try to get more hours tonight.;Dobrý spánek je důležitý! Zkuste dnes večer naspat více hodin.;
+Open App;Otevřete aplikaci;
+BELOW AVG;POD PRŮM;
+Below avg;Pod prům;
+ON AVG;V PRŮM;
+On avg;V prům;
+ABOVE AVG;NAD PRŮM;
+Above avg;Nad prům;
+%H:%M;%H:%M;
+%l:%M%p;%l:%M%p;
+%uH %uM Sleep;%uH %uM Spánek;
+Nap Time;Zdřímnutí;
+%s of sleep;%s spánku;
+YOU NAPPED;ZDŘÍML SIS;
+Of napping;Z podřimování;
+%s - %s;%s - %s;
+I need more;Potřebuji víc;
+Aren't naps great? You knocked out for %dH %dM!;No nejsou zdřímnutí skvělá? Odpadli jste na %dH %dM!;
+I didn't nap!?;Nespala jsem!?;
+Open Pin;Otevřít Pin;
+Killer job! You've walked %d steps today which is %d%% above your typical. Do it again tomorrow and you'll be on top of the world!;Skvělá práce! Dnes jste ušli %d kroků, což je %d%% nad vaše obvyklé. Udělejte to znovu zítra a budete na vrcholu světa!;
+Nice moves! You've walked %d steps today which is %d%% above your typical. Crush it again tomorrow 😀;Pěkné pohyby! Dnes jste ušli %d kroků, což je %d%% nad vaše obvyklé. Zítra to zase rozdrťte 😀;
+Hey rockstar 🎤 You've walked %d steps today which is %d%% above your typical. Nothing can stop you!;Hej hvězdo 🎤 Dnes jste ušli %d kroků, což je %d%% nad vaše obvyklé. Nic vás nemůže zastavit!;
+We can barely keep up! You walked %d steps today which is %d%% above your typical. You're on 🔥;Sotva stíháme! Dnes jste ušli %d kroků, což je %d%% nad vaše obvyklé. Jste v 🔥;
+You walked %d steps today which is %d%% above your typical. You just outstepped YOURSELF. Mic drop.;Dnes jste ušli %d kroků, což je %d%% nad vaše obvyklé. Právě jsi překonal SAMI SEBE. Paráda.;
+"You walked %d steps today; keep it up! Being active is the key to feeling like a million bucks. Try to beat your typical tomorrow.";"Dnes jste ušli %d kroků; jen tak dál! Být aktivní je klíčem k tomu, abyste se cítili parádně. Zkuste překonat svůj typický zítřek.";
+Good job! You walked %d steps today–do it again tomorrow.;Dobrá práce! Dnes jste ušli %d kroků – udělejte to znovu zítra.;
+"Someone's on the move 👊 You walked %d steps today; keep doing what you're doing!";"Někdo je v pohybu 👊 Dnes jste ušli %d kroků; pokračuj v tom, co děláš!";
+You keep moving, we'll keep counting! You've clocked in %d steps today. Keep it rolling, hot stuff.;Ty pokračuj, my budeme počítat! Dnes jste dosáhli %d v krocích. Udržujte to v pohybu, do toho.;
+You walked %d steps today which is %d%% below your typical. Try to be more active tomorrow–you can do it!;Dnes jste ušli %d kroků, což je %d%% pod váš typický. Zkuste být zítra aktivnější – zvládnete to!;
+You walked %d steps which is %d%% below your typical. Being active makes you feel amaaaazing–try to get back on track tomorrow.;Ušli jste kroky %d, což je %d%% pod váš typický. Díky tomu, že jste aktivní, se budete cítit úžasně – zkuste se zítra vrátit na správnou cestu.;
+You walked %d steps today which is %d%% below your typical. Don't worry, tomorrow is just around the corner 😀;Dnes jste ušli %d kroků, což je %d%% pod váš typický. Nebojte, zítřek je za dveřmi 😀;
+You walked %d steps which is %d%% below your typical, but don't stress. You'll crush it tomorrow 😉;Ušli jste kroky %d, což je %d%% pod váš typický, ale nezoufejte. Zítra to rozdrtíš 😉;
+You walked %d steps today. Don't fret, you can get back on track in no time 😉;Dnes jste ušli %d kroků. Nezoufejte, za chvíli se můžete vrátit do starých kolejí 😉;
+You walked %d steps today. Good news is the sky's the limit!;Dnes jste ušli %d kroků. Dobrá zpráva je, že nebe je limit!;
+You walked %d steps today. Try to take even more steps tomorrow–show us what you're made of!;Dnes jste ušli %d kroků. Zkuste zítra udělat ještě více kroků – ukažte, co ve vás je!;
+Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle your day 😃.;Osvěžený? Spali jste %dH %dM, což je %d%% nad vaším typickým. Jdi řešit svůj den 😃.;/ Sleep notification on wake up, slept above their typical sleep duration
+You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your typical. Keep it up.;To byl ssssspánek! Spali jste %dH %dM, což je %d%% nad vaším typickým. jen tak dál.;
+Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do it again tonight, sleep master.;Vstávat a cvičit! Spali jste %dH %dM, což je %d%% nad vaším typickým. Udělej to znovu dnes večer, mistře spánku.;
+Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. That's gotta feel good!;Mmmm...jaká noc. Spali jste %dH %dM, což je %d%% nad vaším typickým. To musí být dobrý pocit!;
+That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% above your typical. Boom shakalaka.;To je spousta ovcí, které jste právě spočítali! Spali jste pro %dH %dM, což je %d%% nad vaším typickým. Bum shakalaka.;
+Good mornin’. You slept for %dH %dM. Every good day begins with a solid night’s sleep...kinda like that one 😉 Keep it up!;Dobré ráno'. Spal jste %dH %dM. Každý dobrý den začíná tvrdým spánkem...tak nějak takhle 😉 Jen tak dál!;/ Sleep notification on wake up, slept similar to their typical sleep duration
+"Good morning! You slept for %dH %dM. Consistency is key; keep doing what you're doing 😃.";"Dobré ráno! Spali jste %dH %dM. Konzistence je klíčová; pokračuj v tom co děláš 😃.";
+You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly ritual. You deserve it.;Není nad zavřené oči! Spali jste %dH %dM. Udělejte z toho noční rituál. zasloužíš si to.;
+Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊;Cítíte se dobře? Spali jste %dH %dM. Už vás nic nezastaví 👊;
+Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try to get more tonight!;Hej, ospalá hlavo. Spali jste %dH %dM, což je %d%% pod vaším typickým. Zkuste dnes večer získat více!;/ Sleep notification on wake up, slept below their typical sleep duration
+Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is important for everything you do-try getting more shut eye tonight!;Malátní? Spali jste %dH %dM, což je %d%% pod vaším typickým. Spánek je důležitý pro všechno, co děláte – zkuste dnes večer více zavřít oči!;
+It's a new day! You slept for %dH %dM which is %d%% below your typical. It's not your best, but there's always tonight.;Je nový den! Spali jste %dH %dM, což je %d%% pod vaším typickým. Není to tvoje nejlepší, ale vždy je tu dnešní noc.;
+Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go crush your day and then get back in bed 😉;Dobré ráno! Spali jste za %dH %dM, což je %d%% pod vaším typickým. Rozdrťte den a pak zpět do postele 😉;
+You slept for %dH %dM which is %d%% below your typical. Sleep is vital for all your great ideas–how 'bout getting more tonight?;Spali jste %dH %dM, což je %d%% pod vaším typickým. Spánek je životně důležitý pro všechny vaše skvělé nápady – co takhle získat dnes v noci víc?;
+You only slept for %dH %dM which is %d%% below your typical. We know you're busy, but try getting more tonight. We believe in you 😉;Spali jste pouze %dH %dM, což je %d%% pod vaším typickým. Víme, že jste zaneprázdněni, ale zkuste dnes večer získat více. Věříme vám 😉;
+"You slept for %dH %dM which is %d%% below your typical. We know stuff happens; take another crack at it tonight.";"Spali jste za %dH %dM, což je %d%% pod vaším typickým. Víme, že se věci dějí; zkuste to dnes večer znovu.";
+%u Steps;%u kroků;
+Didn’t that walk feel good?;No nebyla ta procházka dobrá?;
+Way to keep it active!;Udržte takovou aktivitu!;
+You got the moves!;Hýbete se!;
+Gettin' your step on?;Jdete dál?;
+Feelin' hot? Cause you're on 🔥;Je vám horko? Protože úplně 🔥;
+Hey lightning bolt, way to go!;Hej, blesku, jen tak dál!;
+You're a machine!;Ty jsi stroj!;
+Hey speedster, we can barely keep up!;Hej rychlíku, sotva stíháme!;
+Way to show us what you're made of 👊;To koukáme, co ve vás je 👊;
+Workin' up a sweat?;Co se zapotit?;
+Well done 💪;Výborně 💪;
+Endorphin rush?;Nával endorfinů?;
+Can't stop, won't stop 👊;Nejde přestat, nepřestanem 👊;
+Keepin' that heart healthy! ❤;Udržujte to srdce zdravé! ❤;
+%d Min;%d Min;
+Avg Pace;Prům. tempo;
+Distance;Vzdálenost;
+Steps;Kroky;
+Active Calories;Aktivní kalorie;
+Avg HR;Prům. HR;
+%dH;%dH;
+%dM;%dM;
+%d:%d;%d:%d;
+H;H;
+ ; ;"Whitespace-only string; preserve unchanged"
+M;M;
+%d.%d;%d.%d;
+Alarm;Budík;
+EVERY DAY;KAŽDÝ DEN;/ A frequency option for alarms, i.e. the alarm would go off every day. Respect / capitalization!
+Every Day;Každý den;/ A frequency option for alarms, i.e. the alarm would go off every day. Respect / capitalization!
+WEEKDAYS;VŠEDNÍ;/ A frequency option for alarms, i.e. the alarm would only go off every weekday. Respect / capitalization!
+WEEKENDS;VÍKENDY;/ A frequency option for alarms, i.e. the alarm would only go off each day on the weekend. / Respect capitalization!
+ONCE;JEDNOU;/ A frequency option for alarms, i.e. the alarm would only go off one time ever. Respect / capitalization!
+Once;Jednou;/ A frequency option for alarms, i.e. the alarm would only go off one time ever. Respect / capitalization!
+CUSTOM;VLASTNÍ;/ A frequency option for alarms, i.e. the alarm would only go off on a custom choice of / days. Respect capitalization!
+Custom;Vlastní;/ A frequency option for alarms, i.e. the alarm would only go off on a custom choice of / days. Respect capitalization!
+Sun;Ne;
+Mon;Po;
+Tue;Út;
+Wed;St;
+Thu;Čt;
+Fri;Pá;
+Sat;So;
+Sundays;Neděle;
+Mondays;Pondělí;
+Tuesdays;Úterý;
+Wednesdays;Středy;
+Thursdays;Čtvrtky;
+Fridays;Pátky;
+Saturdays;Soboty;
+Edit;Upravit;
+sent an attachment;poslat přílohu;
+Call Back;Zavolejte zpět;
+Calendar Aware enables Quiet Time automatically during calendar events.;Podle kalendáře automaticky aktivuje Tichý čas během událostí kalendáře.;
+Press and hold the Back button from a notification to turn Quiet Time on or off.;Stisknutím a podržením tlačítka Zpět v oznámení zapnete nebo vypnete Tichý čas.;
+Start Quiet Time?;Začít Tichý čas?;
+End Quiet Time?;Ukončit Tichý čas?;
+"Quiet Time
+Started";"Tichý čas
+začal";
+"Quiet Time
+Ended";"Tichý čas
+skončil";
+ - ;-;
+All Day;Celý den;
+Recurring;Opakující se;
+STARTS ;ZAČÍNÁ;
+Broadcaster;Vysílatel;
+Can't connect. Relaunch Pebble Time app on phone.;Nelze se připojit. Znovu spusťte aplikaci Pebble Time v telefonu.;
+Removed;Odebráno;
+Dismissed;Zamítnuto;
+Deleted;Smazáno;
+Thanks!;Díky!;
+Calendar;Kalendář;
+Reminders;Připomenutí;
+Intercom;Interkom;
+Quickly dismiss all notifications by holding the Select button for 2 seconds from any incoming notification.;Rychle zrušte všechna oznámení podržením tlačítka Vybrat po dobu 2 sekund od jakéhokoli příchozího oznámení.;
+Ok;Ok;
+Yes;Ano;
+No;Žádný;
+Call me;Zavolej mi;
+Call you later;Zavolám později;
+Reply with Voice;Odpovědět pomocí hlasu;
+Voice;Hlas;
+Canned messages;Předpřipravené zprávy;
+Emoji;Emoji;
+In 15 minutes;Za 15 minut;
+Later today;Dnes později;
+Last updated;Naposledy aktualizováno;
+Standard - Medium;Standardní - Střední;/ Standard vibration pattern option that has a medium intensity
+Jan;Led;
+Feb;Úno;
+Mar;Bře;
+Apr;Dub;
+May;Kvě;Zvolená krátká varianta, zdrojový klíč se sdílí s plným názvem
+Jun;Čvn;
+Jul;Čvc;
+Aug;Srp;
+Sep;Zář;
+Oct;Říj;
+Nov;Lis;
+Dec;Pro;
+January;Leden;
+February;Únor;
+March;Březen;
+April;Duben;
+June;Červen;
+July;Červenec;
+August;Srpen;
+September;Září;
+October;Říjen;
+November;Listopad;
+December;Prosinec;
+Sunday;Neděle;
+Monday;Pondělí;
+Tuesday;Úterý;
+Wednesday;Středa;
+Thursday;Čtvrtek;
+Friday;Pátek;
+Saturday;Sobota;
+%H:%M:%S;%H:%M:%S;
+%m/%d/%y;%m/%d/%y;
+%a %b %e %H:%M:%S %Y;%a %b %e %H:%M:%S %Y;
+%I:%M:%S %p;%I:%M:%S %p;
+AM;DOP;
+PM;ODP;
+am;dop;
+pm;odp;
+:;:;TmplStringSep | / The first separator in `<hour>:<minute>:<second>` / The second separator in `<hour>:<minute>:<second>`
+ ; ;"TmplStringSep | / The first separator in `<hour> hr <minute> min <second> sec` / The second separator in `<hour> hr <minute> min <second> sec` | Whitespace-only string; preserve unchanged"
+, ;,;TmplStringSep | / The first separator in `<hour> hours, <minute> minutes, and <second> seconds`
+, and ;a;TmplStringSep | / The second separator in `<hour> hours, <minute> minutes, and <second> seconds`
+ sec;sek;TmplStringSing | / Singular suffix for seconds with abbreviated units
+ sec;sek;TmplStringPlur | / Plural suffix for seconds with abbreviated units
+ second;sekunda;TmplStringSing | / Singular suffix for seconds with full units
+ seconds;sekund;TmplStringPlur | / Plural suffix for seconds with full units
+ min;min;TmplStringSing | / Singular suffix for minutes with abbreviated units
+ min;min;TmplStringPlur | / Plural suffix for minutes with abbreviated units
+ minute;minuta;TmplStringSing | / Singular suffix for minutes with full units
+ minutes;minut;TmplStringPlur | / Plural suffix for minutes with full units
+ hr;hod;TmplStringSing | / Singular suffix for hours with abbreviated units
+ hr;hod;TmplStringPlur | / Plural suffix for hours with abbreviated units
+ hour;hodina;TmplStringSing | / Singular suffix for hours with full units
+ hours;hodin;TmplStringPlur | / Plural suffix for hours with full units
+ d;d;TmplStringSing | / Singular suffix for days with abbreviated units
+ d;d;TmplStringPlur | / Plural suffix for days with abbreviated units
+ day;den;TmplStringSing | / Singular suffix for days with full units
+ days;dní;TmplStringPlur | / Plural suffix for days with full units
+ mo;m;TmplStringSing | / Singular suffix for months with abbreviated units
+ mo;m;TmplStringPlur | / Plural suffix for months with abbreviated units
+ month;měsíc;TmplStringSing | / Singular suffix for months with full units
+ months;měsíců;TmplStringPlur | / Plural suffix for months with full units
+ yr;rok;TmplStringSing | / Singular suffix for years with abbreviated units
+ yr;rok;TmplStringPlur | / Plural suffix for years with abbreviated units
+ year;rok;TmplStringSing | / Singular suffix for years with full units
+ years;roků;TmplStringPlur | / Plural suffix for years with full units
+Check bluetooth connection;Zkontrolujte připojení bluetooth;
+Start;Start;
+End;Konec;
+Dictation is not available.;Diktování není k dispozici.;
+Error occurred. Try again.;Došlo k chybě. Zkuste to znovu.;
+Enable voice in the settings page of the Pebble app.;Povolte hlas na stránce nastavení aplikace Pebble.;
+Missed that. Try again.;To mi chybělo. Zkuste to znovu.;
+Listening;Naslouchání;
